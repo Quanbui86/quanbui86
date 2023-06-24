@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(150, 35, 35);
+    background-size: cover;    
+    border: 1px solid red;
+    min-width: 550px;
+}
+#wrapperall {
+    background-color: rgb(255, 255, 255);
+    width: 62%;
+    min-width: 550px;
+    border: 1px solid red;
+    padding: 0 8px 8px;
+    margin: 0 auto;
+}
+header {
+    background-image: url(../img/pattern.jpeg);
+    background-size: 300%;
+    margin: 60px auto;
+}
+h1 {
+    color: khaki;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+}
+h3 {
+    font-weight: bold;
+    margin: 20px 0;
+}
+p {
+    margin: 0px 0;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.boldblue { /*product price*/
+    font-weight: bold;
+    color: blue;
+}
+.hacksawbg {
+    background-color: mediumspringgreen;
+    background-size: cover;
+}
+.framebg {
+    background-color: lightcoral;
+    background-size: cover;
+}
+.paintbg {
+    background-color: skyblue;
+    background-size: cover;
+}
