@@ -8,7 +8,6 @@ body {
     background-color: rgb(255, 255, 255);
     background-size: cover;    
     border: 1px solid red;
-    min-width: 550px;
 }
 #wrapperall {
     background-color: rgb(255, 255, 255);
