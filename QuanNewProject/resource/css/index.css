@@ -1,15 +1,13 @@
 body {
     background-color: #FFF;
   }
-  
-  .container {
+    .container {
     background-color: #91f2d2;
     height: 444px;
     width: 666px;
     position: relative;
   }  
-  
-  .wrapper {
+    .wrapper {
     display: flex;
     background-color: transparent;
     border: 1px solid red;
