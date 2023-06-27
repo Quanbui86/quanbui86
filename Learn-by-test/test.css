@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Oswald', sans-serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: cadetblue;
+}
+header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px 0;
+}
+th {
+    border: 2px solid white;
+    padding: 10px;
+    min-width: 200px;
+    background-color: rebeccapurple;
+}
+Main {
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+table {
+    border: 2px solid red;
+    margin: 0px auto;
+    height: 1000px;
+}
+tfoot td {
+    text-align: center;
+}
+td {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+}
+footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 70px;
+    bottom: 5px;
+    display: flex; /* Canh giữa bằng flex */
+        justify-content: center;
+        align-items: center;
+}
+.footerh3 {
+    background-color: rgb(148, 35, 35);
+    text-transform: uppercase;
+    width: 300px;
+    height: 60px;
+    display: flex; /* Canh giữa bằng flex */
+        justify-content:space-evenly;
+        align-items: center;
+}
+footer a {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: inline-block;
+    display: flex; /* Canh giữa bằng flex */
+        justify-content:space-evenly;
+        align-items: center;
+}

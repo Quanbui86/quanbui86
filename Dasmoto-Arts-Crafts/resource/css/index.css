@@ -41,6 +41,7 @@ p {
     margin: 0px 0;
     font-size: 15px;
     letter-spacing: 0px;
+    font-family: 'Courier New', Courier, monospace sans-serif;
 }
 .boldblue { /*product price*/
     font-weight: bold;
