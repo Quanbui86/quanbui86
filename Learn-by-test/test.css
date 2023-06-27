@@ -17,8 +17,11 @@ header {
 th {
     border: 2px solid white;
     padding: 10px;
-    min-width: 100px;
+    min-width: 300px;
     background-color: rebeccapurple;
+}
+th h2 {
+    font-size: 22px;
 }
 Main {
     background-color: transparent;
