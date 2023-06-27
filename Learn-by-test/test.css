@@ -37,10 +37,9 @@ td {
     padding: 5px;
 }
 footer {
-    background-color: black;
-    width: 90%;
+    background-color: transparent;
     position: fixed;
-    bottom: 0;
+    width: 100%;
     height: 70px;
     bottom: 5px;
     display: flex; /* Canh giữa bằng flex */
