@@ -1,10 +1,11 @@
 /* Test the local font use @font-face */
 @font-face {
     font-family: 'SpaceMono';
-    src: url('./fonts/Glegoo-Regular.woff2') format('woff2'),
-         url('./fonts/RGlegoo-Regular.woff') format('woff'),
+    src: url('../fonts/Space_Mono/spacemono-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Space_Mono/spacemono-regular-webfont.woff') format('woff'),
          url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
-
+    font-weight: normal;
+    font-style: normal;
   }
 @font-face {
     font-family: 'JetBrainsMono';
