@@ -1,0 +1,16 @@
+/* Test the local font use @font-face */
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('./fonts/Glegoo-Regular.woff2') format('woff2'),
+         url('./fonts/RGlegoo-Regular.woff') format('woff'),
+         url('../fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+
+  }
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('./fonts/Glegoo-Regular.woff') format('woff'),
+         url('../fonts/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('../fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+
+  }
+/* Test the local font use @font-face */
