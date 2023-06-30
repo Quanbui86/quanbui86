@@ -35,9 +35,8 @@ table {
 }
 th {
     text-transform: uppercase;
-    width: calc(100%/3);
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
     border: 2px solid navy;
 }
 td {
@@ -51,5 +50,7 @@ td:last-child {
     text-align: justify;
     text-indent: 2em;
     width: 50%;
-
+}
+th:last-child {
+    width: 50%;
 }
