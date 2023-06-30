@@ -1,0 +1,52 @@
+body {
+    font-family: 'JetBrainsMono';
+}
+header {
+    background-color: antiquewhite;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+main {
+    position: relative;
+    padding-top: 80px ;
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    text-align: center;
+    padding: 5px 20px;
+    background-color: azure;
+    margin: 0 20px;
+}
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+table {
+    width: 70%;
+    margin: 40px auto;
+}
+th {
+    text-transform: uppercase;
+    width: calc(100%/3);
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px solid navy;
+
+}
+td {
+    border: 2px solid navy;
+    line-height: 1.5em;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+td:last-child {
+    color: brown;
+    text-align: justify;
+}
