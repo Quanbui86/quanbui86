@@ -3,7 +3,7 @@ body {
 }
 header {
     background-color: antiquewhite;
-    padding: 20px 0;
+    padding: 0.6rem 0;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -13,27 +13,26 @@ main {
     padding-top: 80px ;
 }
 nav {
-    text-align: center;
-    border: 1px solid red;
-    margin: auto 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid red;
+    margin: 0 auto;
+    height: 60px;
 }
 nav ul {
     display: flex;
-    justify-content: center;
     align-items: center;
-    height: 60px;
-    background-color: blue;
-    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 100%;
+    margin: 0 10px;   
 }
 nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 40px;
+    text-align: center;
     background-color: azure;
-    border: 1px solid red;
-    padding: 10px;
-    margin:5px;    
+    padding: 10px 0.3em;
+    margin: 0 2px;
 }
 section {
     padding: 40px 0;
