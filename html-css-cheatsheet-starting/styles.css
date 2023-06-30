@@ -21,9 +21,9 @@ nav ul {
 }
 nav ul li {
     text-align: center;
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: azure;
-    margin: auto 20px;
+    margin: auto 10px;
 }
 section {
     padding: 40px 0;
