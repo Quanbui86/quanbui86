@@ -6,6 +6,7 @@ header {
     padding: 20px 0;
     position: fixed;
     width: 100%;
+    z-index: 99;
 }
 main {
     position: relative;
@@ -20,9 +21,9 @@ nav ul {
 }
 nav ul li {
     text-align: center;
-    padding: 5px 20px;
+    padding: 10px 20px;
     background-color: azure;
-    margin: 0 20px;
+    margin: auto 20px;
 }
 section {
     padding: 40px 0;
@@ -38,15 +39,15 @@ th {
     background-color: aquamarine;
     padding: 20px;
     border: 2px solid navy;
-
 }
 td {
     border: 2px solid navy;
     line-height: 1.5em;
-    padding: 0 10px;
+    padding: 5px 10px;
     vertical-align: middle;
 }
 td:last-child {
     color: brown;
     text-align: justify;
+    text-indent: 2em;
 }

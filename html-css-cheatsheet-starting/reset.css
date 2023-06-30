@@ -54,6 +54,7 @@ a:link { text-decoration: none; }
 /* now we use our normal styles */
 * {
     box-sizing: border-box;
+    letter-spacing: 0.1px;
 }
 
 body { font-family: Georgia, serif; }
@@ -61,9 +62,30 @@ body { font-family: Georgia, serif; }
 p { color: blue; }
 
 h1, h2, h3, h4, h5, h6 { color: green; }
+
 @font-face {
     font-family: 'JetBrainsMono';
     src: url('../fonts/JetBrainsMono-2.304/fonts/webfonts/') format('woff'),
          url('./Resource/fonts/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
          url('./Resource/fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
   }
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
