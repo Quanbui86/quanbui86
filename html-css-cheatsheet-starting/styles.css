@@ -42,8 +42,6 @@ table {
     width: 90%;
     margin: 40px auto;
 }
-thead tr th {
-}
 th {
     text-transform: uppercase;
     background-color: aquamarine;
@@ -56,14 +54,20 @@ td {
     line-height: 1.5em;
     padding: 5px 5px;
     vertical-align: middle;
+    font-size: 0.8rem;
 }
-td:last-child {
-    color: brown;
+td:nth-child(2) {
     text-align: justify;
-    text-indent: 1em;
-    width: 50%;
-    font-size: 0.75rem;
-    font-weight: 400;
+    text-indent: 1em;    
 }
-th:last-child {
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px 0;
+}
+pre {
+    overflow: auto;
+    height: 500px;
+    margin: 20px 0;
+    padding: 20px 0;
 }
