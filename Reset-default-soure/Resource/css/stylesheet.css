@@ -12,6 +12,5 @@
     src: url('./fonts/Glegoo-Regular.woff') format('woff'),
          url('../fonts/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-Regular.woff2') format('woff2'),
          url('../fonts/JetBrainsMono-2.304/fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
-
   }
 /* Test the local font use @font-face */
