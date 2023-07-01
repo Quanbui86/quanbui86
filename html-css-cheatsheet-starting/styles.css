@@ -60,18 +60,27 @@ td {
     line-height: 1.5em;
     padding: 5px 2px;
     vertical-align: middle;
-    font-size: 0.7rem;
+    font-size: 16px;
+}
+@media screen and (max-width: 450px) {
+    td {
+        text-align: justify;
+        text-indent: 3px;
+        font-size: 12px;    
+    }
 }
 /*td:nth-child(2) {
     text-align: justify;
     text-indent: 1em;
-    font-size: 0.7rem;
-    
+    font-size: 12px;    
 }*/
-footer {
-    text-align: center;
-    background-color: cadetblue;
-    padding: 20px 0;
+#codesheet {
+    width: 98%;
+    overflow: scroll;
+    height: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 20px auto;
 }
 pre {
     font-size: 0;
@@ -82,15 +91,12 @@ pre {
 code {
     display: flex;
     margin: 0 2px;
-    font-size: 0.7rem;
+    font-size: 12px;
     background-color: transparent;
     line-height: 1.3rem;
 }
-#codesheet {
-    width: 98%;
-    overflow: scroll;
-    height: 500px;
-    background-color: aquamarine;
-    border-radius: 10px;
-    margin: 20px auto;
+footer {
+    text-align: center;
+    background-color: cadetblue;
+    padding: 20px 0;
 }
