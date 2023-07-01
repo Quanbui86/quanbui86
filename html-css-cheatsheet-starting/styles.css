@@ -68,6 +68,9 @@ td {
         text-indent: 3px;
         font-size: 12px;    
     }
+    code {
+        font-size: 12px;
+    }
 }
 /*td:nth-child(2) {
     text-align: justify;
@@ -91,9 +94,9 @@ pre {
 code {
     display: flex;
     margin: 0 2px;
-    font-size: 12px;
+    font-size: 16px;
     background-color: transparent;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
 }
 footer {
     text-align: center;
