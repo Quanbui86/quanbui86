@@ -58,7 +58,9 @@ td {
 }
 td:nth-child(2) {
     text-align: justify;
-    text-indent: 1em;    
+    text-indent: 1em;
+    font-size: 0.7rem;
+    
 }
 footer {
     text-align: center;
