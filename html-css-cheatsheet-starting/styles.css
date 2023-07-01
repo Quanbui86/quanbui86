@@ -61,11 +61,14 @@ td {
     padding: 5px 2px;
     vertical-align: middle;
     font-size: 16px;
+    text-align: center;
+}
+td:nth-child(2) {
+    text-align: justify;
+    text-indent: 5px;
 }
 @media screen and (max-width: 450px) {
     td {
-        text-align: justify;
-        text-indent: 3px;
         font-size: 12px;    
     }
     .code_exp {
