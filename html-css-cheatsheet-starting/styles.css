@@ -10,7 +10,7 @@ header {
 }
 main {
     position: relative;
-    padding-top: 80px ;
+    padding-top: 100px ;
 }
 nav {
     display: flex;
@@ -35,12 +35,12 @@ nav ul li {
     margin: 0 2px;
 }
 section {
-    padding: 40px 0;
+    padding: 00px 0;
     text-align: center;
 }
 table {
-    width: 90%;
-    margin: 40px auto;
+    width: 98%;
+    margin: 20px auto;
 }
 th {
     text-transform: uppercase;
@@ -54,7 +54,7 @@ td {
     line-height: 1.5em;
     padding: 5px 5px;
     vertical-align: middle;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 td:nth-child(2) {
     text-align: justify;
@@ -66,17 +66,23 @@ footer {
     padding: 20px 0;
 }
 pre {
-    overflow: auto;
-    height: 500px;
-    margin: 20px auto;
-    padding: 10px 0;
-    width: 90%;
-    background-color: aquamarine;
-    display: flex;
-    justify-content: stretch;
+    font-size: 0;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
 }
 code {
+    display: flex;
+    margin: 0 2px;
+    font-size: 0.7rem;
     background-color: transparent;
-    margin: 0px 20px;
-    line-height: 1.5rem;
+    line-height: 1.3rem;
+}
+#codesheet {
+    width: 98%;
+    overflow: scroll;
+    height: 500px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    margin: 20px auto;
 }
