@@ -1,5 +1,6 @@
 body {
     font-family: 'JetBrainsMono';
+    background-color: azure;
 }
 header {
     background-color: antiquewhite;
@@ -12,6 +13,7 @@ main {
     position: relative;
     padding-top: 100px ;
     background-color: azure;
+    padding-bottom: 20px;
 }
 nav {
     display: flex;
