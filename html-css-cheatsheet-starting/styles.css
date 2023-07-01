@@ -56,10 +56,10 @@ td {
     vertical-align: middle;
     font-size: 0.7rem;
 }
-td:nth-child(2) {
+/*td:nth-child(2) {
     text-align: justify;
     text-indent: 1em;
-    font-size: 0.7rem;
+    font-size: 0.7rem;*/
     
 }
 footer {
