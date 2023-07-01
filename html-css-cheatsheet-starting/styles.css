@@ -49,6 +49,12 @@ th {
     border: 2px solid navy;
     vertical-align: middle;
 }
+th:first-child {
+    width: 20%;
+}
+th:last-child {
+    width: 20%;
+}
 td {
     border: 2px solid navy;
     line-height: 1.5em;
