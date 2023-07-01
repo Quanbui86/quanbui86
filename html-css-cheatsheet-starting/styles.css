@@ -95,6 +95,7 @@ pre {
 }
 code {
     display: flex;
+    text-align: left;
     margin: 0 2px;
     font-size: 16px;
     background-color: transparent;
@@ -104,8 +105,4 @@ footer {
     text-align: center;
     background-color: cadetblue;
     padding: 20px 0;
-}
-#csscode_id {
-    text-align: left;
-    display: flex;
 }
