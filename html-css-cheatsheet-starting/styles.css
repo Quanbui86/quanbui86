@@ -68,6 +68,15 @@ footer {
 pre {
     overflow: auto;
     height: 500px;
-    margin: 20px 0;
-    padding: 20px 0;
+    margin: 20px auto;
+    padding: 10px 0;
+    width: 90%;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: stretch;
+}
+code {
+    background-color: transparent;
+    margin: 0px 20px;
+    line-height: 1.5rem;
 }
