@@ -68,7 +68,7 @@ td {
         text-indent: 3px;
         font-size: 12px;    
     }
-    code {
+    .code_exp {
         font-size: 12px;
     }
 }
@@ -77,10 +77,9 @@ td {
     text-indent: 1em;
     font-size: 12px;    
 }*/
-#codesheet {
+.codesheet {
     width: 98%;
-    overflow: scroll;
-    height: 500px;
+    overflow-x: auto;
     background-color: aquamarine;
     border-radius: 10px;
     margin: 20px auto;
@@ -102,4 +101,8 @@ footer {
     text-align: center;
     background-color: cadetblue;
     padding: 20px 0;
+}
+#csscode_id {
+    text-align: left;
+    display: flex;
 }

@@ -23,10 +23,10 @@
                 </ul>
             </nav>
         </header>
-        <main>            
+        <main>
+          <h1>html, css cheat sheet</h1>            
             <section id="htmlcheatsheet">
-                <h1>html BASIC TAG TABLE</h1>
-                
+                <h2>html BASIC TAG TABLE</h2>                
                 <table>
                   <thead>
                     <tr>
@@ -117,8 +117,8 @@
                       <td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td">MDN Web Docs</a></td>
                     </tr>
                   </tbody>                  
-                </table>
-                <h1>attributes TABLE</h1>
+                </table>                
+                <h2>attributes TABLE</h2>                
                 <table>
                   <tr>
                     <th><h4>name</h4></th>
@@ -167,9 +167,9 @@
                   </tr>  
                 </table>                                   
             </section>
-            <div id="codesheet">
+            <div class="codesheet">
               <pre>
-                <code>
+                <code class="code_exp">
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
   &lt;head&gt;
@@ -227,33 +227,139 @@
                 </code>
               </pre>
             </div>
-            <section>
-              <h1>CSS Cheat Sheet</h1>
-                <table>
-                    <tr>
-                        <th><h4>CSS Name</h4></th>
-                        <th><h4>Property Explane</h4></th>
-                        <th><h4>Link to Doc</h4></th>
-                    </tr>
-                    <tr>
-                        <td>color</td>
-                        <td>Sets the color of text</td>
-                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">MDN Web Docs</a></td>
-                    </tr>
-                    <tr>
-                        <td>background-color</td>
-                        <td>Sets the background color of an element</td>
-                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">MDN Web Docs</a></td>
-                    </tr>
-                    <tr>
-                        <td>font-size</td>
-                        <td>Sets the size of a font</td>
-                        <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">MDN Web Docs</a></td>
-                    </tr>
+            <section id="csscheatsheet">
+              <h2>CSS Cheat Sheet</h2>
+              <table>
+                  <tr>
+                      <th><h4>CSS Name</h4></th>
+                      <th><h4>Property Explane</h4></th>
+                      <th><h4>Link to Doc</h4></th>
+                  </tr>
+                  <tr>
+                      <td>border</td>
+                      <td>Sets the border around an element</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>margin</td>
+                      <td>Sets the margin outside of an element’s border</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/margin">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>padding</td>
+                      <td>Sets the padding inside of an element’s border</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/padding">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>color</td>
+                      <td>Sets the color of text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color">MDN Web Docs</a></td>
+                  </tr>
+                  <tr>
+                      <td>background-color</td>
+                      <td>Sets the background color of an element</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-color">MDN Web Docs</a></td>
+                  </tr>
+                  <tr>
+                      <td>background-image</td>
+                      <td>Sets one or more background images for an element</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image">MDN</a></td>
+                  </tr>                    
+              </table>
+              <h2>CSS font</h2>
+              <table>
+                  <tr>
+                      <th>CSS Property</th>
+                      <th>Explanation</th>
+                      <th>Documentation</th>
+                  </tr>
+                  <tr>
+                      <td>font-family</td>
+                      <td>Specifies the font family for text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-family">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>font-size</td>
+                      <td>Specifies the font size for text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-size">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>font-style</td>
+                      <td>Sets the style of the font, such as italic or oblique</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-style">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>font-weight</td>
+                      <td>Sets the weight (or boldness) of the font</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>line-height</td>
+                      <td>Sets the line height for text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/line-height">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>text-align</td>
+                      <td>Specifies the horizontal alignment of text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-align">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>text-decoration</td>
+                      <td>Specifies the decoration added to text, such as underline or overline</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration">MDN</a></td>
+                  </tr>
+                  <tr>
+                      <td>text-transform</td>
+                      <td>Controls the capitalization of text</td>
+                      <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-transform">MDN</a></td>
+                  </tr>
                 </table>
+                <h2>CSS positioning</h2>
+                <table>
+                  <tr>
+                    <th>CSS Property</th>
+                    <th>Explanation</th>
+                    <th>Documentation</th>
+                  </tr>
+                  <tr>
+                    <td>display</td>
+                    <td>Specifies the display behavior of an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">MDN</a></td>
+                  </tr>
+                  <tr>
+                    <td>position</td>
+                    <td>Specifies the positioning method used for an element</td>
+                    <td><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/position">MDN</a></td>
+                  </tr>
+                </table>
+                <div class="codesheet">
+                  <pre>                    
+                    <code id="csscode_id" class="code_exp">
+&lt;style&gt;
+  .example {
+      border: 1px solid black;
+      margin: 10px;
+      padding: 10px;
+      color: black;
+      background-color: white;
+      background-image: url('image.jpg');
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      display: block;
+      position: static;
+  }
+&lt;/style&gt;                                     
+                    </code>
+                  </pre>
+                </div>
+                
+                
             </section>        
                           
         </main>
+
         <footer>  
           <p>&copy; 2023 Example Page. All rights reserved.</p>  
         </footer>
