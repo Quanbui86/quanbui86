@@ -70,12 +70,16 @@ td:nth-child(2) {
     text-align: justify;
     text-indent: 5px;
 }
+.code_exp {
+    padding-left: 20px;
+}
 @media screen and (max-width: 450px) {
     td {
         font-size: 12px;    
     }
     .code_exp {
-        font-size: 12px;
+        font-size: 10px;
+        padding-left: 0;
     }
 }
 /*td:nth-child(2) {
@@ -90,6 +94,7 @@ td:nth-child(2) {
     border-radius: 10px;
     margin: 20px auto;
 }
+
 pre {
     font-size: 0;
     background-color: transparent;
