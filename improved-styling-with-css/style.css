@@ -1,0 +1,45 @@
+a:hover {
+        cursor: pointer;
+}
+.navigation a:hover {
+        cursor: pointer;
+        background-color: aliceblue;
+        opacity: 0.7;
+        }
+.navigation a:active{
+        color:aquamarine;
+}
+.btn {
+        padding: 10px 20px;
+        border: 1px solid gray;
+        background-color: cadetblue;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        border-radius: 50px;
+        box-shadow: 2px 3px;
+        font-family: 'Raleway', sans-serif;
+        transition: background-color 0.15s 0.15s, color 0.15s 0.15s, font-size 0.2s;
+}
+
+.btn:hover {
+        background-color: antiquewhite;
+        color:cornflowerblue;
+}
+.btn:active {
+        font-size: 18px;
+}
+.activity {
+        transition: background-color 0.15s 0.15s, color 0.05s 0.05s opacity 0.15s 0.15s; 
+}
+.activity:hover {
+        text-decoration: none;
+        background-color: teal;
+        opacity: 0.7;
+        border: 0;
+}
+.activity:active {
+        text-decoration: none;
+        color: blueviolet;
+        opacity: 1;
+}
