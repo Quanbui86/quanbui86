@@ -1,12 +1,12 @@
 body{
-		background-color: #ffffff;
+		background-color: #B7C4CF;
 		margin: 0px;
 		padding:0px;
 }
 .navigation{
     box-sizing: border-box;
-    background-color: #ffffff;
-    border-bottom: 1px solid #dddddd;
+    background-color: #B7C4CF;
+    border-bottom: 1px solid #EEE3CB;
     left: 0px;
     overflow-y: auto;
     padding:30px;
@@ -21,7 +21,7 @@ ul{
     padding: 0px;
 }
 .navigation a{
-    color: violet;
+    color: #967E76;
     display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
@@ -32,7 +32,7 @@ ul{
     vertical-align: middle;
 }
 a.logo{
-    color: #2176FF;
+    color: #EEE3CB;
     font-family: 'Amatic SC',sans-serif;
     font-size: 34px;
     padding: 0px 60px;
@@ -65,7 +65,7 @@ h1{
     text-transform: uppercase;
 }
 h2{
-    color: #2176FF;
+    color: #967E76;
     font-family: 'Amatic SC',sans-serif;
     font-size: 30px;
     margin: 0px;
@@ -112,14 +112,14 @@ p{
     width: 100%;
     }
 .activity{
-    background-color: goldenrod;
+    background-color: #967E76;
     box-sizing: border-box;
     width: 240px;
     height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #EEE3CB;
     font-family: 'Amatic SC',sans-serif;
     font-size: 30px;
     text-align: center;
@@ -127,22 +127,29 @@ p{
     margin: 50px;
     text-decoration: underline;
     border-radius: 10px;
-    border: 2px solid darkgrey;
+    border: 2px solid #EEE3CB;
 }
 .footer{
-    background-color: #2176FF;
+    background-color: #967E76;
     padding: 30px;
     text-align: center;
     }
 .footer h2{
-    color: #ffffff;
+    color: #EEE3CB;
     font-family: 'Raleway',sans-serif;
     font-size: 14px;
-    font-weight: 100;
+    font-weight: 200;
     letter-spacing: 2px;
     }
     
 a {
     cursor: default;
     text-decoration-line: none;
+    }
+.navigation a.logo:hover {
+        background-color: transparent;
+        opacity: 0.8;
+    }
+.navigation a.logo:active {
+        color: #967E76;
     }
