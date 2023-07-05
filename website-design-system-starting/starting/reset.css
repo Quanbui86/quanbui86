@@ -68,6 +68,7 @@ h1 {
     text-transform: uppercase;
     padding: 15px 0;
     font-family: 'Nova Round', cursive;
+    line-height: 1.5rem;
 }
 h2 {
     font-size: 40px;
