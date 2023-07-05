@@ -2,8 +2,8 @@ body {
         background-color: #2A2F4F;
 }
 main {
-        margin-top: 100px;
         width: 98%;
+        margin: 100px auto 0;
 }
 header {
         background-color: transparent;
@@ -36,7 +36,8 @@ nav {
 .list_of_nav {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
 }
 h1 {
         position: relative;
