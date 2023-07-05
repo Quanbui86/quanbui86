@@ -3,7 +3,7 @@ body {
 }
 main {
         width: 98%;
-        margin: 100px auto 0;
+        margin: 150px auto 0;
 }
 header {
         background-color: transparent;
@@ -11,10 +11,11 @@ header {
         position: fixed;
         width: 100%;
         top:0;
+        height: 100px;
         box-shadow: 0 1px 0 0;
         z-index: 9;
 }
-.headr-wrapper {
+.header-wrapper {
         position: absolute;        
         width: 98%;
         margin: 0 1%;
@@ -67,25 +68,27 @@ h1 {
         z-index: 1;
 }
 .nav_content {
-        padding: 0 10px;
+        padding: 0 20px;
 }
 @media screen and (min-width: 800px) {
         main {
-            width: 70%;
-            margin: auto;
+                width: 70%;
+                margin: 120px auto 0;
         }
-        nav {
-            max-width: 800px;
-            width: 50%;
-            margin: auto 0;
+        .header-wrapper {
+                position: absolute;        
+                width: 70%;
+                height: 100px;
+                margin: 0 15%;
+                display: flex;
+                justify-content: space-between;
+                z-index: 99;
         }
-        .headr-wrapper {
-            position: absolute;        
-            width: 70%;
-            margin: 0 15%;
-            height: 100px;
-            display: flex;
-            justify-content: space-between;
-            z-index: 99;
+        .list_of_nav {
+                display: flex;
+                justify-content: space-evenly;
         }
     }
+.nav_content h4 {
+        line-height: 2rem;
+}
