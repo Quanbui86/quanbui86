@@ -12,8 +12,8 @@ header {
 }
 .headr-wrapper {
         position: absolute;        
-        width: 70%;
-        margin: 0 15%;
+        width: 98%;
+        margin: 0 1%;
         height: 100px;
         display: flex;
         justify-content: space-between;
