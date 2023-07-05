@@ -57,29 +57,26 @@ a:link { text-decoration: none; }
     letter-spacing: 0.1px;
 }
 
-p { color: bisque; }
+p { color: #2A2F4F; }
 
-h1, h2, h3, h4, h5, h6 { color: beige; }
+h1, h2, h3, h4, h5, h6 { color: #2A2F4F; }
 
 
 h1 {
     font-size: 3.5rem;
     font-weight: 700;
-    text-transform: uppercase;
     font-family: 'Nova Round', cursive;
     line-height: 1.5rem;
 }
 h2 {
     font-size: 3rem;
     font-weight: 700;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
 h3 {
     font-size: 2.5rem;
     font-weight: 700;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
