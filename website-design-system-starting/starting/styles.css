@@ -1,6 +1,10 @@
 body {
         background-color: #2A2F4F;
 }
+main {
+        margin-top: 100px;
+        width: 98%;
+}
 header {
         background-color: transparent;
         background-size: cover;
@@ -33,9 +37,6 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-}
-main {
-        margin-top: 100px;
 }
 h1 {
         position: relative;
