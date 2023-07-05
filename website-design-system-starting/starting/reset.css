@@ -63,44 +63,42 @@ h1, h2, h3, h4, h5, h6 { color: beige; }
 
 
 h1 {
-    font-size: 60px;
+    font-size: 3.5rem;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Nova Round', cursive;
     line-height: 1.5rem;
 }
 h2 {
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
 h3 {
-    font-size: 30px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
 h4 {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 400;
     line-height: 1rem;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
 h5 {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 1.2rem;
+    font-weight: 200;
     line-height: 1rem;
-    text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
 
 }
 h6 {
-    font-size: 14px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1rem;
     text-transform: uppercase;
@@ -108,7 +106,7 @@ h6 {
 
 }
 p {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5rem;

@@ -30,7 +30,6 @@ header {
         width: 3rem;
         height: 3rem;
         margin: auto 0;
-
 }
 nav {   
         width: 80%;
@@ -65,7 +64,7 @@ h1 {
         opacity: 0.9;
         z-index: 1;
 }
-.nav_content h4 {
+.nav_content h5 {
         line-height: 1.5rem;
         margin: 0 0.5rem;
 }
