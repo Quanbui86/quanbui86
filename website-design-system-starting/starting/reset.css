@@ -64,43 +64,55 @@ h1, h2, h3, h4, h5, h6 { color: #2A2F4F; }
 
 h1 {
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Nova Round', cursive;
 }
 h2 {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
 
 }
 h3 {
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 400;
     font-family: 'Poppins', sans-serif;
 
 }
 h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 
 }
 h5 {
-    font-size: 1.2rem;
-    font-weight: 200;
+    font-size: 1rem;
+    font-weight: 600;
     font-family: 'Poppins', sans-serif;
 
 }
 h6 {
-    font-size: 0.8rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 200;
     font-family: 'Poppins', sans-serif;
 
 }
 p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
     line-height: 1.5rem;
+}
+caption {
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5rem;
+    display: inline;
+}
+sub, sup {
+    font-size: 0.8rem;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
 }
 
