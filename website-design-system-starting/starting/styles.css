@@ -36,6 +36,7 @@ nav {
         flex-wrap: wrap;
 }
 main {
+        position: relative;
         margin: 4rem auto;
         padding: 0 1rem;
 }
@@ -147,4 +148,17 @@ section {
 .font_usage {
         width: 50%;
 }
-
+footer {
+        position: sticky;
+        background-color: #2A2F4F;
+        height: 4rem;
+        width: 100%;
+        z-index: 8;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+footer h6 {
+        color: #FDE2F3;
+}
