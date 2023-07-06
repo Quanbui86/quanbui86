@@ -91,7 +91,7 @@ section {
 .color-text li *{
         color: #FEFEFB;
 }
-.color-bgr {
+.color-bg {
         background-color: #FEFEFB;
 }
 .general_text_style {
@@ -110,7 +110,10 @@ section {
         .logo {
                 margin: auto 0;
         }
-    }
+        p {
+                font-size: 1rem;
+        }
+}
 
 .display_flex {
         display: flex;
@@ -120,5 +123,8 @@ li.display_flex {
         flex-wrap: wrap;
         min-height: 2rem;
         justify-content: space-between;
+}
+.font_usage {
+        width: 50%;
 }
 
