@@ -45,7 +45,6 @@ h1 {
 }
 #larger-title {
         width: 20%;
-        line-height: 4rem;
         padding: 1rem 0;        
 }
 .section_separate {
@@ -104,7 +103,7 @@ section {
         background-color: #FDE2F3;
 }
 @media screen and (min-width: 767px) {        
-        nav {   
+        nav {  
                 width: 60%;
         }
         .logo {
@@ -113,12 +112,33 @@ section {
         p {
                 font-size: 1rem;
         }
+        h1 {
+                font-size: 3.5rem;                
+        }
+        h2 {
+                font-size: 2.5rem;          
+        }
+        h3 {
+                font-size: 2rem;                
+        }
+        h4 {
+                font-size: 1.5rem;                        
+        }
+        h5 {
+                font-size: 1rem;            
+        }
+        h6 {
+                font-size: 1rem;            
+        }
+        caption {
+                font-size: 1.2rem;                
+        }
+        sub, sup {
+                font-size: 0.8rem;                
+        }
 }
-
 .display_flex {
         display: flex;
-}
-li.display_flex {
         flex-direction: column;
         flex-wrap: wrap;
         min-height: 2rem;
