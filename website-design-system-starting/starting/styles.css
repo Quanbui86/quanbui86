@@ -118,7 +118,7 @@ section {
 li.display_flex {
         flex-direction: column;
         flex-wrap: wrap;
-        height: 2rem;
+        min-height: 2rem;
         justify-content: space-between;
 }
 
