@@ -82,6 +82,9 @@ section {
 .color-pri {
         background-color: #E5BEEC;        
 }
+.color-second {
+        background-color: #FDE2F3;        
+}
 .color-text {
         background-color: #2A2F4F;
 }
@@ -97,18 +100,15 @@ section {
         align-items: center;
         padding: 1rem;
 }
-.h1-bgr {
-        background-color: #E5BEEC;
-}
-.h2-bgr {
+.second_bg {
         background-color: #FDE2F3;
-}
-.h3-bgr {
-        background-color: transparent;
 }
 @media screen and (min-width: 767px) {        
         nav {   
                 width: 60%;
+        }
+        .logo {
+                margin: auto 0;
         }
     }
 
