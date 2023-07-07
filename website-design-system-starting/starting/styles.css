@@ -45,14 +45,15 @@ h1 {
 }
 #larger-title {
         width: 20%;
-        padding: 1rem 0;        
+        padding: 2rem 0;
+        line-height: calc(6rem*0.8);        
 }
 .section_separate {
         position: relative;
         border: 3px solid #E5BEEC;
         width: 80px;
         height: 6px;
-        margin: 1rem 0;        
+        margin: 1rem 0 4rem;        
 }
 .nav_content h5 {
         line-height: 1.5rem;
@@ -60,7 +61,7 @@ h1 {
 }
 section {
         margin: 0 auto;
-        padding: 2rem 0;
+        padding: 4rem 0;
         max-width: 1000px;
 }
 .color-style{
@@ -127,6 +128,10 @@ section {
         sub, sup {
                 font-size: 0.8rem;                
         }
+        #larger-title {
+                
+                line-height: 6rem;
+        }
 }
 .display_flex {
         display: flex;
@@ -151,4 +156,7 @@ footer {
 }
 footer p {
         color: #FDE2F3;
+}
+#intro p {
+        width: 70%;
 }

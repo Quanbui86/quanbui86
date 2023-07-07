@@ -80,9 +80,10 @@ h3 {
 
 }
 h4 {
-    font-size: calc(1.5rem*0.8);
-    font-weight: 400;
+    font-size: calc(1.25rem*0.8);
+    font-weight: 200;
     font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
 
 }
 h5 {
