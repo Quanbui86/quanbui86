@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 { color: #2A2F4F; }
 
 
 h1 {
-    font-size: calc(3.5rem*0.8);
+    font-size: calc(5rem*0.8);
     font-weight: 600;
     font-family: 'Nova Round', cursive;
 }
