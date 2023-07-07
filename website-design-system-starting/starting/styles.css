@@ -38,8 +38,14 @@ nav {
         flex-wrap: wrap;
 }
 main {
-        margin: 4rem auto;
+        margin: 0 auto;
         padding: 0 1rem;
+}
+#special {
+        width: 100%;
+        height: 4rem;
+        background-color: #E5BEEC;
+        background-size: cover;
 }
 h1 {
         position: relative;
@@ -56,13 +62,12 @@ h1 {
         height: 6px;
         margin: 1rem 0;        
 }
-/*.opacity_background {
+.opacity_background {
         position: fixed;
         top: 0;
         height: 4rem;
         width: 100%;
         background-color: #E5BEEC;
-        opacity: 0.9;
         z-index: 1;
 }*/
 .nav_content h5 {
