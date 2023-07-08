@@ -1,3 +1,6 @@
+html {
+        font-size: 12px;
+}
 body {
         background-color: #FEFEFB;
 }
@@ -6,6 +9,7 @@ header {
         position: fixed;
         width: 100%;
         top:0;
+        padding: 0 1rem;
         height: 3.5rem;
         box-shadow: 0 1px 0 0;
         z-index: 9;
@@ -23,7 +27,7 @@ header {
         border-radius: 50%;
         width: 3rem;
         height: 3rem;
-        margin: auto 0 auto 1rem;
+        margin: auto 0;
 }
 nav {   
         width: 80%;
@@ -51,7 +55,7 @@ h1 {
 #larger-title {
         width: 20%;
         padding: 2rem 0;
-        line-height: calc(6rem*0.8);        
+        line-height: calc(6rem*0.8);
 }
 .section_separate {
         position: relative;
@@ -98,47 +102,21 @@ section {
 .second_bg {
         background-color: #FDE2F3;
 }
-@media screen and (min-width: 767px) {        
+@media screen and (min-width: 411px) {
+        html {
+                font-size: 14px;
+        }
+        nav {   
+                width: 80%;
+        }
+}
+@media screen and (min-width: 767px) {
+        html {
+                font-size: 16px;
+        }       
         nav {  
                 width: 60%;
-        }
-        .logo {
-                margin: auto 0;
-        }
-        p {
-                font-size: 1rem;
-        }
-        h1 {
-                font-size: 4rem;                
-        }
-        h2 {
-                font-size: 2rem;          
-        }
-        h3 {
-                font-size: 2rem;                
-        }
-        h4 {
-                font-size: 1rem;                        
-        }
-        h5 {
-                font-size: 1rem;            
-        }
-        h6 {
-                font-size: 1rem;            
-        }
-        caption {
-                font-size: 1.2rem;                
-        }
-        sub, sup {
-                font-size: 0.8rem;                
-        }
-        #larger-title {
-                
-                line-height: 6rem;
-        }
-        #intro p {
-                max-width: 700px;
-        }
+        }        
 }
 .display_flex {
         display: flex;
@@ -168,4 +146,11 @@ button {
         background-color: #FDE2F3;
         border: 0px solid #FEFEFB;
         padding: 0.0rem 20%;
+}
+#intro p {
+        max-width: 700px;
+}
+#larger-title {
+                
+        line-height: 6rem;
 }
