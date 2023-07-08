@@ -1,0 +1,216 @@
+html {
+        font-size: 16px;
+}
+body {
+        background-color: #FEFEFB;
+}
+header {
+        background-color: #E5BEEC;
+        position: fixed;
+        width: 100%;
+        top:0;
+        padding: 0 1rem;
+        height: 6rem;
+        z-index: 9;
+        box-shadow: 2px 2px 2px #2A2F4F;
+}
+nav {
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        justify-content: space-between;
+}
+nav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+nav ul li {
+        display: flex;
+        align-items:center;
+}
+.nav-row {
+        display: flex;
+        align-items: center;
+}
+.logo {
+        display: flex;
+}
+.logo img{
+        height: 5rem;
+        width: 5rem;
+        border-radius: 50%;
+        margin: auto 0;
+}
+.mobile-menu {
+        display: none;
+}
+main {
+        margin: 3.5rem auto;
+        padding: 0 1rem;
+}
+@media screen and (max-width: 644px) {
+        header {
+                padding: 0;
+        }
+        nav {   
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                margin-bottom: 4rem;
+                height: 100vh;
+        }
+        .nav-row {
+                display: flex;
+                justify-content: space-between;
+        }
+        .mobile-menu {
+                display: flex;
+                align-items: center;
+                margin-right: 1rem;
+                justify-content: center;
+        }
+        .mobile-menu {
+                font-size: 2rem;
+                background-color: #FEFEFB;
+                width: 5rem;
+                height: 5rem;
+                margin: 0.5rem;
+                border-radius: 50%;
+        }
+        .mobile-menu label {
+                position: absolute;
+        }
+        .logo {
+                height: 6rem;
+                padding: 0.5rem 1rem;
+
+        }
+        .logo img{
+                height: 5rem;
+                width: 5rem;
+                border-radius: 50%;
+                margin: auto 0;
+        }
+        nav ul {
+                position: fixed;
+                top: 6rem;
+                background-color: #FDE2F3;
+                flex-direction: column;
+                justify-content: flex-start;
+                box-shadow: 2px 2px 2px #2A2F4F;
+                margin-top: 2px;
+                height: 100%;
+                left: -100%;
+                transition: 0.5s;
+        }
+        nav ul li {
+                margin: 0 auto;
+                height: 4rem;
+        }
+        nav ul li a h4 {
+                color: #2A2F4F;
+        }
+        #check:checked ~ ul {
+                left: 0;
+        }
+}
+
+h1 {
+        position: relative;
+        top: 0px;        
+}
+#larger-title {
+        width: 20%;
+        padding: 2rem 0;
+        line-height: calc(6rem*0.8);
+}
+.section_separate {
+        position: relative;
+        border: 3px solid #E5BEEC;
+        width: 80px;
+        height: 6px;
+        margin: 1rem 0 4rem;        
+}
+
+section {
+        margin: 0 auto;
+        padding: 4rem 0;
+        max-width: 1000px;
+}
+.color-style{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+}
+.color-pri {
+        background-color: #E5BEEC;        
+}
+.color-second {
+        background-color: #FDE2F3;        
+}
+.color-text {
+        background-color: #2A2F4F;
+}
+.color-text li *{
+        color: #FEFEFB;
+}
+.color-bg {
+        background-color: #FEFEFB;
+}
+.general_text_style {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+}
+.second_bg {
+        background-color: #FDE2F3;
+}
+@media screen and (min-width: 411px) {
+        html {
+                font-size: 16px;
+        }
+}
+@media screen and (min-width: 767px) {
+        html {
+                font-size: 16px;
+        }             
+}
+.display_flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 2rem;
+        justify-content: space-between;
+}
+.font_usage {
+        width: 50%;
+}
+footer {
+        position: sticky;
+        background-color: #2A2F4F;
+        height: 4rem;
+        width: 100%;
+        z-index: 8;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+footer p {
+        color: #FDE2F3;
+}
+button {
+        background-color: #FDE2F3;
+        border: 0px solid #FEFEFB;
+        padding: 0.0rem 20%;
+}
+#intro p {
+        max-width: 700px;
+}
+#larger-title {
+                
+        line-height: 6rem;
+}

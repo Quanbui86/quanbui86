@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Website Moblie Menu</title>
+		<meta charset="UTF-8" />
+		<script src="https://kit.fontawesome.com/027aa5656b.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Nova+Round&family=Poppins:wght@200;400;600;800&display=swap" rel="stylesheet">
+		<link rel="icon" type="image/svg+xml" href="../resource/img/trowel-bricks-solid.svg">
+		<!-- This is where to place meta tags, links to CSS and JavaScript files -->
+		<link rel="stylesheet" type="text/css" href="./reset.css">
+		<link rel="stylesheet" type="text/css" href="./styles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+		<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+  	</head>
+  	<body>
+    		<header>
+      <!-- This is where to place the logo, navigation menu, and search bar -->
+				<nav class="nav-col">
+					<div class="nav-row">
+						<label class="logo"><img src="../resource/img/wdslogo.png" alt="logo"></label>
+						<div class="mobile-menu">
+							<input type="checkbox" id="check">
+							<label for="check">
+								<i class="fas fa-bars"></i>
+							</label>
+							<ul class="list_of_nav">
+								<li class="nav_content"><a href="#colors-style"><h4>Color</h4></a>	</li>
+								<li class="nav_content"><a href="#text_style"><h4>Typo</h4></a>		</li>
+								<li class="nav_content"><a href="#"><h4>Image	</h4></a>		</li>
+								<li class="nav_content"><a href="#"><h4>Layout	</h4></a>		</li>
+								<li class="nav_content"><a href="#"><h4>Icon	</h4></a>		</li>
+							</ul>
+						</div>						
+					</div>					
+					
+				</nav>
+    		</header>
+    		<main>       <!-- This is where to place the main content of the web page -->
+			<section id="intro">
+				<h1 id="larger-title">Design System<span>.</span></h1>
+				<div class="section_separate"></div>
+
+				<p>Our website is a source of design resources and guidelines for creating your own website. </p>
+				<p>You can find styles, colors, buttons, cards, and more to make a professional and attractive website.
+					No matter your skill level, our site can help you design a website that meets the highest standards.</p>
+				<p>Check out our site and start building your website today!</p>
+			</section>
+			<section id="colors-style">
+				<h2>Color</h2>
+				<div class="section_separate"></div>
+				<ul class="color-pri color-style">
+					<li><p>Primary color</p></li>
+					<li><p>#917FB3</p></li>					
+				</ul>
+				<ul class="color-second color-style">
+					<li><p>Secondary color</p></li>
+					<li><p>#917FB3</p></li>					
+				</ul>
+				<ul class="color-text color-style">
+					<li><p>Text color</p></li>
+					<li><p>#2A2F4F</p></li>					
+				</ul>
+				<ul class="color-bg color-style">
+					<li><p>Background color</p></li>
+					<li><p>#FEFEFB</p></li>					
+				</ul>				
+			</section>
+      			<section id="text_style">
+				<h2>Typography</h2>
+				<div class="section_separate"></div>
+				<ul class="general_text_style h1-bg second_bg">
+					<li class="font_usage">
+						<h1>large-title / h1</h1>
+						<p>Design System.</p>
+					</li>
+					<li><p>font-size: 3rem</p><p>font-weight: 600;</p>
+					<p>font-family: 'Nova Round', cursive;</p></li>
+				</ul>
+				<ul class="general_text_style h2-bg">
+					<li class="font_usage"><h2>Title 1 / h2</h2><p>Color / Typography</p></li>
+					<li><p>font-size: 2.5rem</p><p>font-weight: 400;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style h3-bg second_bg">
+					<li class="font_usage"><h3>Title 2 / h3</h3></li>
+					<li><p>font-size: 2.0rem</p><p>font-weight: 400;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style h4-bg">
+					<li class="font_usage"><h4>Title 3 / h4</h4></li>
+					<li><p>font-size: 1.5rem</p><p>font-weight: 400;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style h5-bg second_bg">
+					<li class="font_usage"><h5>Headline / h5</h5></li>
+					<li><p>font-size: 1.0rem</p><p>font-weight: 600;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style h6-bg">
+					<li class="font_usage"><h6>Subtitle / h6</h6><p>Navigation</p></li>
+					<li><p>font-size: 1.0rem</p><p>font-weight: 200;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style p-bg">
+					<li class="font_usage">
+						<p>body / p</p>
+					</li>
+					<li>
+						<p>font-size: 1.0rem</p>
+						<p>font-weight: 400;</p>
+						<p>font-family: 'Poppins', sans-serif;</p>
+						<p>line-height: 1.5rem;</p>
+					</li>
+				</ul>
+				<ul class="general_text_style p-bg">
+					<li class="font_usage">
+						<table>
+							<caption>table caption / caption</caption>
+						</table>
+						</li>
+					<li><p>font-size: 1.2rem</p><p>font-weight: 600;</p>
+					<p>font-family: 'Poppins', sans-serif;</p></li>
+				</ul>
+				<ul class="general_text_style p-bg">
+					<li class="font_usage display_flex">						
+						<sup>superscripted text / sup</sup>
+						<sub>subscripted text / sub</sup>
+					</li>
+					<li>
+						<p>font-size: 0.8rem</p>
+						<p>font-weight: 200;</p>
+						<p>font-family: 'Poppins', sans-serif;</p>
+						<p>line-height: 1.5rem;</p>
+					</li>
+				</ul>					
+			</section>				
+			<aside>
+			<!-- This is where to place additional information, quick links, or advertisements -->
+			</aside>
+		</main>
+		<footer>
+			<!-- This is where to place contact information, address, copyright, and social media links -->
+			<p class="">©2023 Quan Bui</p>
+		</footer>
+	</body>
+</html>
