@@ -1,5 +1,5 @@
 html {
-        font-size: 16px;
+        font-size: 12px;
 }
 body {
         background-color: #FEFEFB;
@@ -42,7 +42,10 @@ nav ul li {
         border-radius: 50%;
         margin: auto 0;
 }
-.mobile-menu {
+.checkbtn {
+        display: none;
+}
+#check {
         display: none;
 }
 main {
@@ -78,6 +81,9 @@ main {
                 margin: 0.5rem;
                 border-radius: 50%;
         }
+        .checkbtn {
+                display: flex;
+        }
         .mobile-menu label {
                 position: absolute;
         }
@@ -110,6 +116,9 @@ main {
         }
         nav ul li a h4 {
                 color: #2A2F4F;
+        }
+        #check {
+                display: none;
         }
         #check:checked ~ ul {
                 left: 0;
@@ -170,7 +179,7 @@ section {
 }
 @media screen and (min-width: 411px) {
         html {
-                font-size: 16px;
+                font-size: 14px;
         }
 }
 @media screen and (min-width: 767px) {
