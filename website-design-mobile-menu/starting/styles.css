@@ -23,18 +23,11 @@ nav {
 nav ul {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
 }
 nav ul li {
         display: flex;
         align-items:center;
-}
-.nav-row {
-        display: flex;
-        align-items: center;
-}
-.logo {
-        display: flex;
 }
 .logo img{
         height: 5rem;
@@ -57,40 +50,14 @@ main {
                 padding: 0;
         }
         nav {   
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
                 margin-bottom: 4rem;
-                height: 100vh;
-        }
-        .nav-row {
-                display: flex;
-                justify-content: space-between;
-        }
-        .mobile-menu {
-                display: flex;
-                align-items: center;
-                margin-right: 1rem;
-                justify-content: center;
-        }
-        .mobile-menu {
-                font-size: 2rem;
-                background-color: #FEFEFB;
-                width: 5rem;
-                height: 5rem;
-                margin: 0.5rem;
-                border-radius: 50%;
         }
         .checkbtn {
-                display: flex;
-        }
-        .mobile-menu label {
-                position: absolute;
+                display: block;
         }
         .logo {
                 height: 6rem;
                 padding: 0.5rem 1rem;
-
         }
         .logo img{
                 height: 5rem;
@@ -101,13 +68,14 @@ main {
         nav ul {
                 position: fixed;
                 top: 6rem;
+                /*position: fixed;
+                top: 6rem;*/
                 background-color: #FDE2F3;
                 flex-direction: column;
                 justify-content: flex-start;
                 box-shadow: 2px 2px 2px #2A2F4F;
-                margin-top: 2px;
                 height: 100%;
-                left: -100%;
+                left: 100%;
                 transition: 0.5s;
         }
         nav ul li {
