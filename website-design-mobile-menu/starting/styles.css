@@ -24,19 +24,18 @@ nav {
 .ul_container {
         width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: right;
         align-items: center;
 }
 nav ul {
-        width: 60%;
         display: flex;
-        justify-content: space-evenly;
         align-items: center;
         
 }
 nav ul li {
         display: flex;
         align-items:center;
+        padding-left: 2rem;
 }
 .logo {
         height: 6rem;
@@ -55,7 +54,7 @@ nav ul li {
         display: none;
 }
 main {
-        margin: 3.5rem auto;
+        margin: 3rem auto;
         padding: 0 1rem;
 }
 @media screen and (max-width: 644px) {
@@ -108,6 +107,7 @@ main {
         nav ul li {
                 margin: 0 auto;
                 height: 4rem;
+                padding: 0;
         }
         nav ul li a h4 {
                 color: #2A2F4F;
@@ -139,7 +139,7 @@ h1 {
 
 section {
         margin: 0 auto;
-        padding: 4rem 0;
+        padding: 9rem 0 3rem;
         max-width: 1000px;
 }
 .color-style{
