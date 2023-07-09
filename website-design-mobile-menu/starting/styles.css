@@ -53,7 +53,16 @@ main {
                 margin-bottom: 4rem;
         }
         .checkbtn {
-                display: block;
+                box-sizing: border-box;
+                display: flex;
+                font-size: 2rem;
+                width: 5rem;
+                line-height: 5rem;
+                margin: 0.5rem 1rem;
+                justify-content: center;
+                align-items: center;                
+                background-color: #FEFEFB;
+                border-radius: 50%;
         }
         .logo {
                 height: 6rem;
@@ -67,16 +76,17 @@ main {
         }
         nav ul {
                 position: fixed;
-                top: 6rem;
-                /*position: fixed;
-                top: 6rem;*/
+                top: 8rem;
+                width: 30%;
+                min-width: 150px;        
                 background-color: #FDE2F3;
                 flex-direction: column;
                 justify-content: flex-start;
                 box-shadow: 2px 2px 2px #2A2F4F;
-                height: 100%;
-                left: 100%;
+                right: -250px;
                 transition: 0.5s;
+                border-radius: 15px;
+
         }
         nav ul li {
                 margin: 0 auto;
@@ -89,7 +99,7 @@ main {
                 display: none;
         }
         #check:checked ~ ul {
-                left: 0;
+                right: 2rem ;
         }
 }
 
