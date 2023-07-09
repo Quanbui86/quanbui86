@@ -165,9 +165,8 @@ main {
         margin: 3rem auto;
         padding: 0 1rem;
 }
-/* END - 3. Main body setting */
 
-/* 4. Section setting*/
+/* 3.1. Section setting*/
 .section_separate {
         position: relative;
         border: 3px solid #E5BEEC;
@@ -180,9 +179,9 @@ section {
         padding: 9rem 0 3rem;
         max-width: 1000px;
 }
-/* END - 4. Section setting*/
+/* END - 3.1. Section setting*/
 
-/* 5. section id="intro" setting */
+/* 3.2. section id="intro" setting */
 main section h1 {
         position: relative;
         top: 0px;        
@@ -201,9 +200,9 @@ main section h1 {
 #intro p {
         margin: 0 0 1rem 0;
     }
-/* END - 5. section id="intro" setting */
+/* END - 3.2. section id="intro" setting */
 
-/* 6. <section id="colors-style"> setting */
+/* 3.3. <section id="colors-style"> setting */
 .color_element-style{
         display: flex;
         justify-content: space-between;
@@ -230,7 +229,10 @@ main section h1 {
 .font_usage {
         width: 50%;
 }
-/* END - 5. section id="intro" setting */
+/* END - 3.3. section id="intro" setting */
+/* END - 3. Main body setting */
+
+/* 4. Footer setting */
 footer {
         position: sticky;
         background-color: #2A2F4F;
@@ -245,12 +247,10 @@ footer {
 footer p {
         color: #FDE2F3;
 }
-button {
-        background-color: #FDE2F3;
-        border: 0px solid #FEFEFB;
-        padding: 0.0rem 20%;
-}
-/* Responsive setting */
+/* END - 4. Footer setting */
+
+
+/* 5. Responsive setting  */
 @media screen and (max-width: 644px) {
         header {
                 padding: 0;
@@ -313,3 +313,4 @@ button {
                 right: 2rem ;
         }
 }
+/* END - 5. Responsive setting  */
