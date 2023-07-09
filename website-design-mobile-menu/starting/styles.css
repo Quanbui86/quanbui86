@@ -1,9 +1,114 @@
+/* 1. Universal setting*/
 html {
         font-size: 12px;
+}
+@media screen and (min-width: 411px) {
+        html {
+                font-size: 14px;
+        }
+}
+@media screen and (min-width: 767px) {
+        html {
+                font-size: 16px;
+        }             
 }
 body {
         background-color: #FEFEFB;
 }
+.color-1 {
+        color: #E5BEEC;        
+}
+.color-2 {
+        color: #FDE2F3;        
+}
+.color-3 {
+        color: #2A2F4F;
+}
+.color-4 {
+        color: #FEFEFB;
+}
+.color_background-1 {
+        background-color: #E5BEEC;        
+}
+.color_background-2 {
+        background-color: #FDE2F3;        
+}
+.color_background-3 {
+        background-color: #2A2F4F;
+}
+.color-background {
+        background-color: #FEFEFB;
+}
+* {
+        box-sizing: border-box;
+        letter-spacing: 0.1px;
+}
+h1, h2  {
+        color: #343434 ;
+}
+.heading_color {
+        color: #343434 ;
+}
+h3, h4, h5, h6, p, caption { 
+        color: #69717b; 
+}
+h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        font-family: 'Poppins', sans-serif;
+}
+h2 {
+        font-size: 2rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+
+}
+h3 {
+        font-size: 2rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+
+}
+h4 {
+        font-size: 1rem;
+        font-weight: 200;
+        font-family: 'Poppins', sans-serif;
+        text-transform: uppercase;
+
+}
+h5 {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+
+}
+h6 {
+        font-size: 1rem;
+        font-weight: 200;
+        font-family: 'Poppins', sans-serif;
+
+}
+p {
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.5rem;
+}
+caption {
+        font-size: 1rem;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        line-height: 1.5rem;
+        display: inline;
+}
+sub, sup {
+        font-size: 0.8rem;
+        font-weight: 200;
+        font-family: 'Poppins', sans-serif;
+}
+/* END - 1. Universal setting*/
+
+/* 2. Header setting*/
 header {
         background-color: #E5BEEC;
         position: fixed;
@@ -53,10 +158,99 @@ nav ul li {
 #check {
         display: none;
 }
+/* END - 2. Header setting*/
+
+/* 3. Main body setting */
 main {
         margin: 3rem auto;
         padding: 0 1rem;
 }
+/* END - 3. Main body setting */
+
+/* 4. Section setting*/
+.section_separate {
+        position: relative;
+        border: 3px solid #E5BEEC;
+        width: 80px;
+        height: 6px;
+        margin: 1rem 0 4rem;        
+}
+section {
+        margin: 0 auto;
+        padding: 9rem 0 3rem;
+        max-width: 1000px;
+}
+/* END - 4. Section setting*/
+
+/* 5. section id="intro" setting */
+main section h1 {
+        position: relative;
+        top: 0px;        
+}
+#larger-title {
+        width: 20%;
+        padding: 2rem 0;
+        line-height: calc(6rem*0.8);
+}
+#intro p {
+        max-width: 700px;
+}
+#larger-title {                
+        line-height: 6rem;
+}
+#intro p {
+        margin: 0 0 1rem 0;
+    }
+/* END - 5. section id="intro" setting */
+
+/* 6. <section id="colors-style"> setting */
+.color_element-style{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+}
+.general_text_style {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+}
+.second_bg {
+        background-color: #FDE2F3;
+}
+
+.display_flex {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        min-height: 2rem;
+        justify-content: space-between;
+}
+.font_usage {
+        width: 50%;
+}
+/* END - 5. section id="intro" setting */
+footer {
+        position: sticky;
+        background-color: #2A2F4F;
+        height: 4rem;
+        width: 100%;
+        z-index: 8;
+        color: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+footer p {
+        color: #FDE2F3;
+}
+button {
+        background-color: #FDE2F3;
+        border: 0px solid #FEFEFB;
+        padding: 0.0rem 20%;
+}
+/* Responsive setting */
 @media screen and (max-width: 644px) {
         header {
                 padding: 0;
@@ -118,103 +312,4 @@ main {
         #check:checked ~ .ul_container {
                 right: 2rem ;
         }
-}
-
-h1 {
-        position: relative;
-        top: 0px;        
-}
-#larger-title {
-        width: 20%;
-        padding: 2rem 0;
-        line-height: calc(6rem*0.8);
-}
-.section_separate {
-        position: relative;
-        border: 3px solid #E5BEEC;
-        width: 80px;
-        height: 6px;
-        margin: 1rem 0 4rem;        
-}
-
-section {
-        margin: 0 auto;
-        padding: 9rem 0 3rem;
-        max-width: 1000px;
-}
-.color-style{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-}
-.color-pri {
-        background-color: #E5BEEC;        
-}
-.color-second {
-        background-color: #FDE2F3;        
-}
-.color-text {
-        background-color: #2A2F4F;
-}
-.color-text li *{
-        color: #FEFEFB;
-}
-.color-bg {
-        background-color: #FEFEFB;
-}
-.general_text_style {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 1rem;
-}
-.second_bg {
-        background-color: #FDE2F3;
-}
-@media screen and (min-width: 411px) {
-        html {
-                font-size: 14px;
-        }
-}
-@media screen and (min-width: 767px) {
-        html {
-                font-size: 16px;
-        }             
-}
-.display_flex {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        min-height: 2rem;
-        justify-content: space-between;
-}
-.font_usage {
-        width: 50%;
-}
-footer {
-        position: sticky;
-        background-color: #2A2F4F;
-        height: 4rem;
-        width: 100%;
-        z-index: 8;
-        color: #000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-}
-footer p {
-        color: #FDE2F3;
-}
-button {
-        background-color: #FDE2F3;
-        border: 0px solid #FEFEFB;
-        padding: 0.0rem 20%;
-}
-#intro p {
-        max-width: 700px;
-}
-#larger-title {
-                
-        line-height: 6rem;
 }
