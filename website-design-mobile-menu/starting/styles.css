@@ -209,6 +209,10 @@ main section h1 {
         align-items: center;
         padding: 1rem;
 }
+.right_col {
+        width: 50%px;
+        text-align: end;
+}
 .general_text_style {
         display: flex;
         justify-content: space-between;
@@ -226,10 +230,10 @@ main section h1 {
         min-height: 2rem;
         justify-content: space-between;
 }
-.font_usage {
+.left_col {
         width: 50%;
 }
-/* END - 3.3. section id="intro" setting */
+/* END - 3.3. section id="colors-style" setting */
 /* END - 3. Main body setting */
 
 /* 4. Footer setting */
