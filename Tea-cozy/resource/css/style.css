@@ -56,6 +56,8 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+}
+section {
         margin-top: 70px;
 }
 #mission {
@@ -81,7 +83,6 @@ main {
 }
 #featured-tea {
         width: 1000px;
-        margin-top: 85px;
 }
 .feature-tea-text {
         text-align: center;
