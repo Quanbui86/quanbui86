@@ -1,6 +1,9 @@
 body {
         
 }
+* {
+        box-sizing: border-box;
+}
 .color1 {
         color: #D96704;
 }
@@ -40,7 +43,7 @@ body {
 }
 #header-top {
         height: 3rem;
-        padding: 0 2rem;
+        padding: 0 1%;
 }
 .flex-column {
         display: flex;
@@ -56,10 +59,13 @@ body {
         display: flex;
 }
 .email {
-        width: 17rem;
+        width: calc(15% + 7rem);
 }
 .social-icon {
-        font-size: 1.3rem;
+        
+}
+.fa-instagram {
+        margin: 0 1px;
 }
 .j-content-sb {
         justify-content: space-between;
@@ -78,13 +84,13 @@ body {
 .s-padding {
         padding: 0.5rem;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 650px) {
         #header-top {
                 display: flex;
                 flex-direction: column;
                 row-gap: 1rem;
                 height: auto;
-                padding: 1rem 0;
+                padding: 1rem;
         }
         .group {
                 justify-content: center;
