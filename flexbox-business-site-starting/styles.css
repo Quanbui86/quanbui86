@@ -1,5 +1,4 @@
-body {
-        
+body {        
 }
 * {
         box-sizing: border-box;
@@ -33,10 +32,9 @@ body {
 }
 .opa08 {
         opacity: 0.8;
-
 }
 .bg2-08 {
-        background-color: rgba(69, 72, 44, 0.8);
+        background-color: hsla(60,8.33%,90.59%,1);
 }
 .round-bg {
         border-radius: 50%;
