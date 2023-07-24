@@ -36,12 +36,21 @@ body {
 .bg2-08 {
         background-color: hsla(60,8.33%,90.59%,1);
 }
+.group {
+        width:50%;
+}
+.width50 {
+        width: 50%;
+}
 .round-bg {
         border-radius: 50%;
+        width: 35px;
+        height: 35px;
 }
 #header-top {
         height: 3rem;
         padding: 0 1%;
+        box-sizing: border-box;
 }
 .flex-column {
         display: flex;
@@ -54,16 +63,31 @@ body {
         align-items: center;
 }
 .flex {
-        display: flex;
+        display: flex !important;
 }
 .email {
-        width: calc(15% + 7rem);
+}
+.box-size {
+        box-sizing: border-box;
 }
 .social-icon {
         
 }
 .fa-instagram {
         margin: 0 1px;
+        box-sizing: border-box;
+}
+.button {
+        height: 2rem;
+        padding: 1rem 3rem;
+        box-sizing: border-box;
+}
+.inquyry {
+        background-color: #D96704;
+        width: 70%;
+        border-radius: 15px;        
+}
+.bottom {
 }
 .j-content-sb {
         justify-content: space-between;
@@ -74,21 +98,32 @@ body {
 .margin {
         margin-left: 1rem;
         margin-right: 1rem;
+        box-sizing: border-box;
 }
 .s-margin {
         margin-left: 0.25rem;
         margin-right: 0.25rem;
+        box-sizing: border-box;
+}
+.sss-margin {
+        margin: 0 0.5%;
+        box-sizing: border-box;
 }
 .s-padding {
         padding: 0.5rem;
+        box-sizing: border-box;
 }
-@media only screen and (max-width: 650px) {
+.col-gap {
+        column-gap: 2%;
+}
+@media only screen and (max-width: 380px) {
         #header-top {
                 display: flex;
                 flex-direction: column;
                 row-gap: 1rem;
                 height: auto;
                 padding: 1rem;
+                box-sizing: border-box;
         }
         .group {
                 justify-content: center;
@@ -96,4 +131,12 @@ body {
         .email {
                 width: auto;
         }
+        .full-width {
+                width: 100%;
+                flex-direction: column;
+                row-gap: 0.5rem;
+        }
+}
+@media only screen and (max-width: 680px) {
+     
 }
