@@ -82,6 +82,7 @@ span {
         border-radius: 50%;
         width: 35px;
         height: 35px;
+        flex-shrink: 1;
 }
 .square-bg {
         width: 35px;
@@ -99,6 +100,8 @@ span {
 }
 .top-left {
         flex-direction: row;
+}
+.group {
 }
 
 /* FLEX BOX */
@@ -172,9 +175,7 @@ span {
         margin-right: 1rem;
         box-sizing: border-box;
 }
-.margin-r {
-        margin-right: 1rem;
-}
+
 .s-margin {
         margin-left: 0.5rem;
         margin-right: 0.5rem;
@@ -188,6 +189,18 @@ span {
 .sss-margin {
         margin: 0 0.1rem;
         box-sizing: border-box;
+}
+.margin-r {
+        margin-right: 1rem;
+}
+.s-margin-r {
+        margin-right: 0.5rem;
+}
+.ss-margin-r {
+        margin-right: 0.25rem;
+}
+.l-padding-b {
+        padding-bottom: 2rem;
 }
 .padding {
         padding: 0 1rem;
@@ -203,6 +216,7 @@ span {
 .col-gap {
         column-gap: 5rem;
 }
+
 @media only screen and (max-width: 767px) {
         #header-top {                
                 height: auto;
