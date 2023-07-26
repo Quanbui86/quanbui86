@@ -172,11 +172,18 @@ span {
 .ss-margin-r {
         margin-right: 0.25rem;
 }
+.l-margin-left {
+        margin-left: 2rem;
+}
 .l-padding-b {
         padding-bottom: 2rem;
 }
 .l-padding-lr {
         padding: 0 2rem;
+        box-sizing: border-box;
+}
+.l-padding-l {
+        padding-left: 2rem;
         box-sizing: border-box;
 }
 .padding {
@@ -210,8 +217,10 @@ span {
         opacity: 0.8;
 }
 .round-btn {
-        border-radius: 1rem;       
-        
+        border-radius: 1rem;        
+}
+.normal-btn {
+        border-radius: 5px;
 }
 .dark-border {
         border: 1px solid #0A0A0A;
@@ -327,5 +336,8 @@ main {
         }
         .a-items-fs {
                 align-items: flex-start;
+        }
+        .l-padding-l {
+                padding-left: 0;
         }        
 }
