@@ -78,15 +78,18 @@ span {
 }
 .width50 {
 }
+.icon {
+        font-size: 1.2rem;
+}
 .round-bg {
         border-radius: 50%;
-        width: 35px;
-        height: 35px;
-        flex-shrink: 1;
+        width: 2rem;
+        height: 2rem;
+        flex-shrink: 0;
 }
 .square-bg {
-        width: 35px;
-        height: 35px;
+        width: 2rem;
+        height: 2rem;
         flex-shrink: 0;
 }
 
@@ -106,7 +109,7 @@ span {
 
 /* FLEX BOX */
 .flex {
-        display: flex !important;
+        display: flex;
 }
 .flex-column {
         display: flex;
@@ -147,11 +150,9 @@ span {
 }
 .button {
         height: 2rem;
-        padding: 1rem 1rem;
         box-sizing: border-box;
 }
 .inquyry {
-        background-color: #D96704;
         border-radius: 5px;
         border: 1px solid #f7f7f7;        
 }
@@ -161,14 +162,34 @@ span {
         height: 8rem;
 }
 .logo {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
 }
 .logo-bg {
         width: 4rem;
         height: 4rem;
         flex-shrink: 0;
 }
-
+.nav-left {
+        height: 4rem;
+}
+.nav-item:hover {
+        cursor: pointer;
+        opacity: 0.8;
+        background-color: hsla(67.74,39.24%,15.49%,1);
+}
+.nav-item-active:hover {
+        cursor: pointer;
+        opacity: 0.8;
+}
+nav {
+        position: absolute;
+        top: 9rem;
+        width: 100%;
+}
+main {
+        width: 100%;
+        height: 200px;
+}
 
 .margin {
         margin-left: 1rem;
@@ -202,7 +223,15 @@ span {
 .l-padding-b {
         padding-bottom: 2rem;
 }
+.l-padding-lr {
+        padding: 0 2rem;
+        box-sizing: border-box;
+}
 .padding {
+        padding: 1rem;
+        box-sizing: border-box;
+}
+.padding-lr {
         padding: 0 1rem;
         box-sizing: border-box;
 }
@@ -210,11 +239,22 @@ span {
         padding: 0.5rem;
         box-sizing: border-box;
 }
-
-
-
 .col-gap {
         column-gap: 5rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+        .col-gap {
+                column-gap: 2rem;
+        }
+        .desktop {
+                display: none !important;
+        }
+        #header-mid {
+                padding-bottom: 0;
+        }
+        
 }
 
 @media only screen and (max-width: 767px) {
@@ -248,10 +288,4 @@ span {
         .a-items-fs {
                 align-items: flex-start;
         }        
-}
-@media only screen and (max-width: 1024px) {
-        .col-gap {
-                column-gap: 2rem;
-        }
-        
 }
