@@ -333,7 +333,6 @@ main {
 #brand-criteria {
         height: auto;
         width: 100%;
-        padding: 0.5rem;
 }
 .criteria-group {
         width: 100%;
@@ -390,10 +389,12 @@ main {
                 padding-right: 2rem;
         }
         .cointainer2 {                
-                margin: 0 1rem;
+                margin: 1rem 2rem;
                 flex-direction: column;
                 row-gap: 0.5rem;
                 justify-content: center;
+        }
+        #brand-criteria {                
         }
 }
 
@@ -406,6 +407,12 @@ main {
                 margin: 0 1rem;
                 flex-direction: column;
                 row-gap: 1rem;
+                justify-content: center;
+        }
+        .cointainer2 {                
+                margin: 0 1rem;
+                flex-direction: column;
+                row-gap: 0.5rem;
                 justify-content: center;
         }
         .inquyry {
@@ -435,5 +442,8 @@ main {
         }
         #banner {
                 padding: 0.5rem;
-        }        
+        }
+        #brand-criteria {
+                padding: 0.5rem;                
+        }                
 }
