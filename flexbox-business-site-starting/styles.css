@@ -53,10 +53,10 @@ span {
         min-height: 35px;
 }
 .color1 {
-        color: #D96704;
+        color: #8C1C03;
 }
 .color2 {
-        color: #222601;
+        color: #A69B8F;
 }
 .color3 {
         color: #f7f7f7;
@@ -68,13 +68,13 @@ span {
         color: #4f4f4f;
 }
 .bg1 {
-        background-color: #D96704;
+        background-color: #8C1C03;
 }
 .bg2 {
-        background-color: #222601;
+        background-color: #A69B8F;
 }
 .bg2-tin {
-        background-color: hsla(67.74,39.24%,15.49%,1);
+        background-color: #aea499;
 }
 .bg3 {
         background-color: #f7f7f7;
