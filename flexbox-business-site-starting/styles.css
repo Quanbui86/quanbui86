@@ -3,6 +3,11 @@ body {
 * {
         box-sizing: border-box;
 }
+.cointainer {
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 2rem;
+}
 h1 {
         font-family: 'Righteous', cursive;
         font-size: 4rem;
@@ -26,6 +31,7 @@ h4 {
 }
 p {
         font-family: 'Roboto', sans-serif;
+        line-height: 1.4;
 }
 sub {
         font-family: 'Roboto', sans-serif;
@@ -82,6 +88,9 @@ span {
 .icon {
         font-size: 1.2rem;
 }
+.l-icon {
+        font-size: 3.6rem;
+}
 .round-bg {
         border-radius: 50%;
         width: 2rem;
@@ -93,12 +102,13 @@ span {
         height: 2rem;
         flex-shrink: 0;
 }
-
-.cointainer {
-        max-width: 1400px;
-        width: 100%;
-        margin: 0 2rem;
+.l-square-bg {
+        width: 6rem;
+        height: 6rem;
+        flex-shrink: 0;
 }
+
+
 .box-size {
         box-sizing: border-box;
 }
@@ -110,7 +120,7 @@ span {
 
 /* FLEX BOX */
 .flex {
-        display: flex;
+        display: flex !important;
 }
 .flex-column {
         display: flex;
@@ -271,11 +281,25 @@ main {
         box-sizing: border-box;
         
 }
-.banner {
+#banner {
         background-image: url(./crop-architect-opening-blueprint-s.jpg);
         background-size: cover;
         width: 100%;
         height: 50rem;
+        background-position: right;
+        position: relative;
+        z-index: -2;
+}
+.overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        width: 100%;
+        opacity: 0.5;
+        background-color: #222601;
+        z-index: -1;
 }
 .banner-group {
         width: 100%;
@@ -285,11 +309,31 @@ main {
         width: 50%;
         min-width: 350px;
 }
+#brand-criteria {
+        height: 15rem;
+        width: 100%;
+}
+.criteria-group {
+        background-color: #f7f7f7;
+        height: auto;
+}
+.criteria-right {
+        padding-right: 0rem;
+}
+.flex-grow {
+        flex-grow: 1;
+}
+
+
+
 .width100 {
         width: 100%;
 }
 .col-gap {
         column-gap: 5rem;
+}
+.s-row-gap {
+        row-gap: 2rem;
 }
 @media only screen and (max-width: 1024px) {
         .col-gap {
