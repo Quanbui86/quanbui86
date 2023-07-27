@@ -233,6 +233,7 @@ span {
 #header-top {
         height: 3rem;
         box-sizing: border-box;
+        padding: 1rem;
 }
 .email {
 }
@@ -266,6 +267,7 @@ span {
 }
 #header-mid {
         height: 8rem;
+        padding: 1rem 1rem 3rem 1rem;
 }
 .logo {
         font-size: 2.4rem;
@@ -310,6 +312,8 @@ main {
         background-position: center;
         position: relative;
         z-index: -2;
+        padding: 1rem;
+
 }
 .overlay {
         position: absolute;
@@ -333,6 +337,8 @@ main {
 #brand-criteria {
         height: auto;
         width: 100%;
+        padding: 1rem;
+
 }
 .criteria-group {
         width: 100%;
@@ -370,14 +376,35 @@ main {
         row-gap: 1rem;
 }
 @media only screen and (max-width: 1024px) {
+        #header-top {                
+                height: auto;
+                padding: 0.5rem;
+        }
+        #header-mid {
+                height: auto;
+                padding: 0.5rem;
+        }
+        #banner {
+                padding: 0.5rem;
+        }
+        #brand-criteria {
+                padding: 0.5rem;                
+        }
+        .cointainer {                
+                margin: 0 1rem;
+                row-gap: 0.5rem;
+        }
+        .cointainer2 {                
+                margin: 0 1rem;
+                row-gap: 0.5rem;
+                flex-direction: column;
+                justify-content: center;
+        }
         .col-gap {
                 column-gap: 2rem;
         }
         .desktop {
                 display: none !important;
-        }
-        #header-mid {
-                padding-bottom: 0;
         }
         .criteria-group {              
                 padding: 2rem;
@@ -388,14 +415,6 @@ main {
         .criteria-left {
                 padding-right: 2rem;
         }
-        .cointainer2 {                
-                margin: 1rem 2rem;
-                flex-direction: column;
-                row-gap: 0.5rem;
-                justify-content: center;
-        }
-        #brand-criteria {                
-        }
 }
 
 @media only screen and (max-width: 767px) {
@@ -403,13 +422,17 @@ main {
                 height: auto;
                 padding: 0.5rem;
         }
-        .cointainer {                
-                margin: 0 1rem;
-                flex-direction: column;
-                row-gap: 1rem;
-                justify-content: center;
+        #header-mid {
+                height: auto;
+                padding: 0.5rem;
         }
-        .cointainer2 {                
+        #banner {
+                padding: 0.5rem;
+        }
+        #brand-criteria {
+                padding: 0.5rem;                
+        }
+        .cointainer, .cointainer2 {                
                 margin: 0 1rem;
                 flex-direction: column;
                 row-gap: 0.5rem;
@@ -430,20 +453,12 @@ main {
                 flex-direction: column;
                 row-gap: 1rem;
         }
-        #header-mid {
-                height: auto;
-                padding: 0.5rem;
-        }
+        
         .a-items-fs {
                 align-items: flex-start;
         }
         .l-padding-l {
                 padding-left: 0;
         }
-        #banner {
-                padding: 0.5rem;
-        }
-        #brand-criteria {
-                padding: 0.5rem;                
-        }                
+                        
 }
