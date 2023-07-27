@@ -438,6 +438,23 @@ main {
                 row-gap: 0.5rem;
                 justify-content: center;
         }
+        .criteria-group {
+                padding: 0.5rem;
+        }
+        .criteria-left {
+                padding: 0.5rem;
+        }
+        .l-icon {
+                font-size: 2rem;
+        }
+        .l-round-bg {
+                width: 3rem;
+                height: 3rem;
+                flex-shrink: 0;
+        }
+        .ss-row-gap {
+                row-gap: 0;
+        }
         .inquyry {
                 width: 100%;
                 min-width: 250px;
