@@ -8,6 +8,11 @@ body {
         width: 100%;
         margin: 0 2rem;
 }
+#test {
+        width: 100%;
+        height: 15rem;
+        background-color: antiquewhite;
+}
 h1 {
         font-family: 'Righteous', cursive;
         font-size: 4rem;
@@ -302,7 +307,7 @@ nav {
 }
 main {        
         box-sizing: border-box;
-        
+        position: relative;        
 }
 #banner {
         background-image: url(./crop-architect-opening-blueprint-s.jpg);
@@ -337,7 +342,9 @@ main {
 #brand-criteria {
         height: auto;
         width: 100%;
-        padding: 1rem;
+        /* padding: 7rem 1rem; */
+        position: relative;
+        margin-top: -5rem;
 
 }
 .criteria-group {
@@ -348,10 +355,15 @@ main {
 }
 .criteria-right {
         min-width: 8rem;
-        
+        padding-right: 3rem;
 }
 .criteria-left {
         padding-right: 2rem;
+}
+.under-gap1 {
+        height: 4rem;
+        background-color: #0A0A0A;
+        position: relative;
 }
 .flex-grow {
         flex-grow: 1;
