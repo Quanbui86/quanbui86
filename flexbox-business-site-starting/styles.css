@@ -566,7 +566,6 @@ main {
         }
         .top-left {
                 flex-direction: column;
-                row-gap: 1rem;
         }
         
         .a-items-fs {
