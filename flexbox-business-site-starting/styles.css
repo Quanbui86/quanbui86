@@ -6,7 +6,10 @@ body {
 .cointainer, .cointainer2 {
         max-width: 75rem;
         width: 100%;
-        margin: 0 2rem;
+        padding: 0 0rem;
+}
+.side-padding, .side-padding2 {
+        padding: 1rem 5rem;
 }
 #test {
         width: 100%;
@@ -238,7 +241,6 @@ span {
 #header-top {
         height: 3rem;
         box-sizing: border-box;
-        padding: 1rem;
 }
 .email {
 }
@@ -272,7 +274,7 @@ span {
 }
 #header-mid {
         height: 8rem;
-        padding: 1rem 1rem 3rem 1rem;
+        padding: 1rem 5rem 3rem 5rem;
 }
 .logo {
         font-size: 2.4rem;
@@ -304,7 +306,7 @@ nav {
         position: absolute;
         top: 9rem;
         width: 100%;
-        padding: 0 1rem;
+        padding: 0 5rem;
 }
 main {        
         box-sizing: border-box;
@@ -318,8 +320,6 @@ main {
         background-position: center;
         position: relative;
         z-index: -2;
-        padding: 1rem;
-
 }
 .overlay {
         position: absolute;
@@ -338,16 +338,14 @@ main {
 }
 .banner-text {
         width: 50%;
-        min-width: 350px;
+        min-width: 250px;
 }
 #brand-criteria {
         height: auto;
         width: 100%;
         /* padding: 7rem 1rem; */
         position: relative;
-        padding: 0 1rem;
         margin-top: -5rem;
-
 }
 .criteria-group {
         width: 100%;
@@ -365,17 +363,14 @@ main {
 #about-us {
         height: auto;
         width: 100%;
-        padding: 0 1rem;        
 }
 .about-left {
         width: 100%;
         overflow: hidden;
-        padding: 1rem;
         height: 40rem;
 }
 .about-right {
         width: 100%;
-        padding: 2rem;
 }
 .about-img {
         height: 100%;
@@ -412,29 +407,31 @@ main {
         row-gap: 1rem;
 }
 @media only screen and (max-width: 1024px) {
+        .side-padding, .side-padding {
+                padding: 1rem 3rem;
+        }
         #header-top {                
                 height: auto;
-                padding: 0.5rem;
         }
         #header-mid {
                 height: auto;
-                padding: 0.5rem;
+                padding: 1rem 3rem 1rem 3rem;
+        }
+        nav {
+                padding: 0 3rem;
         }
         #banner {
-                padding: 0.5rem;
         }
         #brand-criteria {
-                padding: 0.5rem;                
         }
         #about-us {
-                padding: 0 .5rem;        
         }
         .cointainer {                
-                margin: 0 1rem;
+                margin: 0 0rem;
                 row-gap: 0.5rem;
         }
         .cointainer2 {                
-                margin: 0 1rem;
+                margin: 0 0rem;
                 row-gap: 0.5rem;
                 flex-direction: column;
                 justify-content: center;
@@ -457,7 +454,6 @@ main {
         .about-left {
                 width: 100%;
                 overflow: hidden;
-                padding: 1rem;
                 height: 25rem;
         }
         .about-right {
@@ -467,29 +463,35 @@ main {
                 height: 100%;
                 width: auto;
                 position: relative;
-                bottom: 0rem;        
         } 
 }
 
 @media only screen and (max-width: 767px) {
+        html {
+                font-size: 14px;
+        }
+        .side-padding {
+                padding: 1rem 1rem;
+        }
+        .side-padding2 {
+                padding: 1rem 0;
+        }
         #header-top {                
                 height: auto;
-                padding: 0.5rem;
         }
         #header-mid {
                 height: auto;
-                padding: 0.5rem;
+                padding: 1rem 1rem 1rem 1rem;
         }
         #banner {
-                padding: .5rem;
         }
         #brand-criteria {
-                padding: 0.5rem;                
+        }
+        #about-us {
         }
         .cointainer, .cointainer2 {                
-                margin: 0 1rem;
                 flex-direction: column;
-                row-gap: 0.5rem;
+                row-gap: 1rem;
                 justify-content: center;
         }
         .criteria-group {
@@ -534,16 +536,23 @@ main {
         .about-left {
                 width: 100%;
                 overflow: hidden;
-                padding: 1rem;
                 height: 20rem;
         }
         .about-right {
                 width: 100%;
+                padding: 0 1rem;
         }
         .about-img {
-                height: 150%;
+                height: 180%;
                 width: auto;
                 position: relative;
-                bottom: 3rem;        
+                bottom: 3rem;
+                left: 3rem;        
+        }
+        .button {
+                height: 2rem;
+                box-sizing: border-box;
+                padding: 0 1rem;
+                font-weight: 600;
         }           
 }
