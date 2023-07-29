@@ -428,11 +428,9 @@ main {
         }
         .cointainer {                
                 margin: 0 0rem;
-                row-gap: 0.5rem;
         }
         .cointainer2 {                
                 margin: 0 0rem;
-                row-gap: 0.5rem;
                 flex-direction: column;
                 justify-content: center;
         }
@@ -491,8 +489,10 @@ main {
         }
         .cointainer, .cointainer2 {                
                 flex-direction: column;
-                row-gap: 1rem;
                 justify-content: center;
+        }
+        .ss-row-gap {
+                row-gap: 1rem;
         }
         .criteria-group {
                 padding: 0.5rem;
@@ -509,7 +509,7 @@ main {
                 flex-shrink: 0;
         }
         .ss-row-gap {
-                row-gap: 0;
+                row-gap: 1rem;
         }
         .inquyry {
                 width: 100%;
