@@ -367,7 +367,7 @@ main {
 .about-left {
         width: 100%;
         overflow: hidden;
-        height: 40rem;
+        height: 30rem;
 }
 .about-right {
         width: 100%;
@@ -380,8 +380,7 @@ main {
 
 
 .under-gap1 {
-        height: 4rem;
-        background-color: #0A0A0A;
+        height: 3rem;
         position: relative;
 }
 .flex-grow {
@@ -400,6 +399,9 @@ main {
 .col-gap {
         column-gap: 5rem;
 }
+.s-col-gap {
+        column-gap: 2rem;
+}
 .s-row-gap {
         row-gap: 2rem;
 }
@@ -409,6 +411,10 @@ main {
 @media only screen and (max-width: 1024px) {
         .side-padding, .side-padding2 {
                 padding: 1rem 3rem;
+        }
+        .under-gap1 {
+                height: 1rem;
+                position: relative;
         }
         #header-top {                
                 height: auto;
