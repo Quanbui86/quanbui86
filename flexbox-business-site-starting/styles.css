@@ -252,6 +252,12 @@ span {
         padding: 0 2rem;
         font-weight: 600;
 }
+.l-button {
+        height: 4rem;
+        box-sizing: border-box;
+        padding: 0 2rem;
+        font-weight: 600;
+}
 .button:hover {
         opacity: 0.8;
 }
@@ -344,6 +350,10 @@ main {
         width: 50%;
         min-width: 250px;
 }
+.banner-text2 {
+        min-width: 250px;
+        text-align: center;
+}
 #brand-criteria {
         height: auto;
         width: 100%;
@@ -380,6 +390,18 @@ main {
         height: 100%;
         width: auto;
         position: relative;        
+}
+
+#banner2 {
+        
+}
+.banner2 {
+        background-image: url(./CONSTRUCTION-COMPANY.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 20rem;
+        position: relative;
+        z-index: -1;
 }
 
 
