@@ -418,6 +418,9 @@ main {
         background-color: white;
         box-sizing: border-box;
 }
+.assit-left:hover, .assit-center:hover, .assit-right:hover {
+        
+}
 .assit-image-container {
         overflow: hidden;
         border-radius: 3px;
