@@ -407,6 +407,7 @@ main {
         z-index: -1;
 }
 #assistance {
+        background-color: #DEDEDE; /* bg3-tin*/
 }
 .assit-left, .assit-center, .assit-right {        
         width: calc(100%/ 5);
@@ -699,5 +700,8 @@ main {
         }
         .move-down3 {
                 top: 0;
+        }
+        #assistance {
+                background-color: #f7f7f7; /* bg3-tin*/
         }          
 }
