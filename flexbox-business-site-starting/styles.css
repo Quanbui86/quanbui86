@@ -1,5 +1,8 @@
 body { 
-        background-color: #f7f7f7;  
+        background-color: #f7f7f7;
+        --bg1:#e76f51;
+        --bg2:#264653;
+        --bg3-tin:hsla(0,0%,87.06%,1);  
 }
 * {
         box-sizing: border-box;
@@ -94,6 +97,7 @@ span {
         background-color: var(--bg3);
 }
 .bg3-tin {
+        
         background-color: hsla(0,0%,87.06%,1);
 }
 .bg4 {
@@ -149,6 +153,9 @@ span {
 }
 
 /* FLEX BOX */
+.block {
+        display: block !important;
+}
 .flex {
         display: flex !important;
 }
@@ -220,6 +227,9 @@ span {
 }
 .l-margin-left {
         margin-left: 2rem;
+}
+.margin-bot {
+        margin-bottom: 0.5rem;
 }
 .l-padding-b {
         padding-bottom: 2rem;
@@ -480,6 +490,8 @@ main {
 }
 .info-container {
         overflow: hidden;
+        width: 100%;
+
 }
 .info-left {
         width: 50%;
@@ -487,8 +499,14 @@ main {
 }
 .info-right {
         width: 50%;
-        height: 30rem;
+        height: 35rem;
         overflow: hidden;
+        background-image: url(./CONSTRUCTION-COMPANY.jpg);
+        background-size: cover;
+        row-gap: 0.2rem;
+        align-items: flex-start;
+        justify-content: center;
+
 }
 .info-left-text {
         text-align: left;
@@ -499,9 +517,65 @@ main {
         height: 130%;
         width: auto;        
 }
+.project-box {
+        width: 50%;
+        height: 7rem;
+        min-width: 15rem;
+        
+}
+#latest-project {
 
+}
+.project-icon {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        color: transparent;
+}
+.project-info {
+        width: 20%;
+        flex: 1 1;
+        background-color: #f7f7f7;
+}
+.project-info-img {
+        height: 17rem;
+        width: 100%;
+        overflow: hidden;
+}
+.project-info-img img {
+        height: 100%;
+        width: auto;
+}
+.project-info-group {
+        margin-top: -10rem;
+        position: relative;
+        z-index: 1;
+}
+.project-text {
+        padding: 1rem;
+        background-color: white;
+        width: calc(100% - 4rem);
+}
+.project-text span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1.3;
+        display: inline-block;
+        background-color: var(--bg3-tin);
+        padding: 0.5rem 1rem;
+}
+.fa-location-dot {
+        font-size: 0.8rem;
+        margin-right: 0.2rem;
+}
 
-
+.project-info:hover .project-text, .project-info:hover .project-icon  {
+        background-color: #e76f51;
+        color: #f7f7f7;
+}
+.project-info:hover span {
+        background-color: #c55237;
+}
 
 .under-gap1 {
         height: 1rem;
@@ -525,6 +599,9 @@ main {
 
 .col-gap {
         column-gap: 5rem;
+}
+.ss-col-gap {
+        column-gap: 1rem;
 }
 .s-col-gap {
         column-gap: 2rem;
@@ -762,7 +839,10 @@ main {
         .info-right {
                 width: 100%;
                 overflow: hidden;
-                height: 20rem;
+                height: 14.2rem;
+                row-gap: 0.2rem;
+                align-items: center;
+                justify-content: flex-start;
         }
         .info-left-text {
                 width: 100%;
