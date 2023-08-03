@@ -862,5 +862,8 @@ main {
         .project-info-img img {
                 width: 100%;
                 height: auto;
+        }
+        .project-info-img {
+                height: auto;
         }       
 }
