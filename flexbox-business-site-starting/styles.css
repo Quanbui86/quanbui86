@@ -852,5 +852,15 @@ main {
         .info-img {
                 height: 180%;
                 width: auto;
-        }          
+        }
+        .top-project, .bot-project {
+                flex-direction: column;
+        }   
+        .project-info {
+                width: 100%;
+        }
+        .project-info-img img {
+                width: 100%;
+                height: auto;
+        }       
 }
