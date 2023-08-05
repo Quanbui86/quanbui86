@@ -638,6 +638,16 @@ main {
         display: flex;
         justify-content: center;
 }
+.footer-tm {        
+        padding: 2rem;
+        height: 4rem;
+        background-color: #e76f51;
+        color: #f7f7f7;
+}
+
+
+
+
 
 .under-gap1 {
         height: 1rem;
