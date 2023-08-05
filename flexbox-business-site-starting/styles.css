@@ -576,6 +576,54 @@ main {
 .project-info:hover span {
         background-color: #c55237;
 }
+.blog-post {
+        width: 20%;
+        flex: 1 1;
+}
+.blog-img-top {
+        width: 100%;
+        height: 20rem;
+        background-image: url(./CONSTRUCTION-COMPANY.jpg);
+        background-size: cover;
+}
+.blog-info-bot {
+        width: 100%;
+        text-align: left;
+        padding: 2rem;
+        background-color: white;
+}
+.blog-info-bot h3 {
+        margin-bottom: 2rem;
+}
+.blog-info-bot button:hover {
+        background-color: #f7f7f7;
+        color: #0A0A0A;
+}
+.meta {
+        height: 3rem;
+        background: #e76f51;
+        position: relative;
+        bottom: calc(-100%);
+        transform: translateY(-100%);
+        padding: 0 1rem;
+}
+.meta h5 {
+        line-height: 0.8;
+        font-weight: 500;
+}
+.meta i, h5 {
+        margin: 0.2rem 0.2rem;
+}
+.meta i {
+        font-size: 0.8rem;
+}
+.meta span {
+        align-items: center;
+}
+.blog-img-top {
+        display: flex;
+        justify-content: center;
+}
 
 .under-gap1 {
         height: 1rem;
@@ -688,8 +736,16 @@ main {
                 height: 100%;
                 width: auto;
                 position: relative;
+        }
+        .blog-post {
+                width: 100%;
+        }
+        .blog-img-top {
+                justify-content: left;
         } 
-
+        .meta {
+                margin-left: 2rem;
+        }
 
         
 }
@@ -865,5 +921,9 @@ main {
         }
         .project-info-img {
                 height: auto;
-        }       
+        }  
+        .blog-post {
+                width: 100%;
+                flex: 1 1;
+        }     
 }
