@@ -12,6 +12,14 @@ body {
         width: 100%;
         padding: 0 0rem;
 }
+@font-face {
+        font-family: 'font-awesome';
+        src: url('./webfonts/fa-solid-900.woff2') format('woff2'),
+             url('./webfonts/') format('woff'),
+             url('./webfonts/fa-solid-900.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
 .side-padding, .side-padding2 {
         padding: 1rem 5rem;
 }
@@ -119,8 +127,8 @@ span {
 }
 .round-bg {
         border-radius: 50%;
-        width: 2rem;
-        height: 2rem;
+        width: 2.5rem;
+        height: 2.5rem;
         flex-shrink: 0;
 }
 .square-bg {
@@ -566,7 +574,6 @@ main {
 }
 .fa-location-dot {
         font-size: 0.8rem;
-        margin-right: 0.2rem;
 }
 
 .project-info:hover .project-text, .project-info:hover .project-icon  {
@@ -638,14 +645,55 @@ main {
         display: flex;
         justify-content: center;
 }
+footer h3 {
+        margin-bottom: 2rem;
+}
+footer li .fa-solid {
+        padding-right: 0.8rem;
+}
+.questions .fa-location-dot {
+        margin-top: 0.4rem;
+}
+.fa-solid {
+        font-size: 1rem;
+        font-family: 'font-awesome';
+}
+.fa-chevron-right::before {
+        content: '\f054';
+}
+
+
 .footer-tm {        
         padding: 2rem;
         height: 4rem;
         background-color: #e76f51;
         color: #f7f7f7;
 }
-
-
+.pa-r {
+        padding-right: 0.8rem;
+}
+#footer-link {
+        padding: 3rem 0;
+}
+#footer-link a p {
+        color: #f7f7f7;
+}
+#footer-link a p:hover {
+        color: #e76f51;
+}
+.about, .services, .questions {
+        flex: 1 1 0;
+        padding: 0 1rem;
+        display: flex;
+        flex-direction: column;
+}
+.links{
+        flex: 1.5 1 0;
+        padding: 0 1rem;
+}
+.link-left, .link-right {
+        width: 40%;
+}
 
 
 
