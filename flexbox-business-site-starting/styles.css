@@ -658,7 +658,7 @@ footer li .fa-solid {
         padding-right: 0.8rem;
 }
 .questions .fa-location-dot {
-        margin-top: 0.4rem;
+        margin-top: 0.35rem;
 }
 .fa-solid {
         font-size: 1rem;
@@ -668,7 +668,9 @@ footer li .fa-solid {
         content: '\f054';
 }
 
-
+#footer {
+        width: 100%;
+}
 .footer-tm {        
         padding: 2rem;
         height: 4rem;
@@ -1037,6 +1039,6 @@ footer .about .social-icon {
                 margin-bottom: 1rem;
         }
         .questions li {
-                height: 2rem;
+                min-height: 2rem;
         }     
 }
