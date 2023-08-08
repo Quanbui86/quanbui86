@@ -1039,6 +1039,6 @@ footer .about .social-icon {
                 margin-bottom: 1rem;
         }
         .questions li {
-                min-height: 2rem;
+                margin-bottom: 0.2rem;
         }     
 }
