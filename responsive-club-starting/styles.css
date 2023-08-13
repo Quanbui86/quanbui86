@@ -415,5 +415,8 @@ input[type=email] {
         #club-name {
                 font-size: 3rem;
         }
+        .partners {
+                width: 20rem;
+        }
 
 }
