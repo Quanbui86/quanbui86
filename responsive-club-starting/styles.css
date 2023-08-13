@@ -370,21 +370,47 @@ input[type=email] {
                 width: 100%;
                 left: 0;
         }
+        .main-img {
+                height: 30rem;
+        }
+        .main-right, .main-left {
+                height: auto;
+
+        }
         .main-text {
                 padding: 1rem;
+                height: auto;
         }
-        .normal-button, .main-button {
+        .normal-button, .main-button, input[type=email] {
                 width: 80%;
+                padding: 1rem;
+                height: 3.2rem;
+                margin: 0;
         }
         .line-spacing {
                 height: 1.5rem;
         }
         .location h3 {
                 text-align: center;
-        }
+        }       
 }
 @media only screen and (max-width: 767px) {
         .line-spacing {
                 height: 0.5rem;
         }
+        .super-large-icon {
+                font-size: 6rem;
+        }
+        .gap {
+                gap: 1rem;
+        }
+        #channel > .gap {
+                gap: 4rem;
+        }
+        .elementor-field-type-email {
+                flex-direction: column;
+                height: auto;
+                gap: 1rem;
+        }
+
 }
