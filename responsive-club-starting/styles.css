@@ -360,6 +360,7 @@ input[type=email] {
         }
         #club-name {
                 bottom: 0;
+                margin-bottom: 1rem;
         }
         .elementor-field-type-email {
                 width: 100%;
