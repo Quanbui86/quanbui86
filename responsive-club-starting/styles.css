@@ -412,5 +412,8 @@ input[type=email] {
                 height: auto;
                 gap: 1rem;
         }
+        #club-name {
+                font-size: 3rem;
+        }
 
 }
