@@ -93,6 +93,19 @@ p {
 #place-grid {
         background-color: #f7f7f7;
 }
+#main-s1 {
+        background-color: white;
+}
+#subscribe {
+        padding: 1rem;
+}
+#channel {
+        padding: 1rem;
+        background-color: #f7f7f7;
+}
+#footer {
+        padding: 1rem;
+}
 .place-grid {
         max-width: 100%;
         display: grid;
@@ -105,8 +118,7 @@ p {
 }
 .location {
         overflow: hidden;
-        position: relative;
-        
+        position: relative;        
         background-size: cover;
         background-position: 50% 50% ;
 }
@@ -122,6 +134,77 @@ p {
 .newyork-mid {
         background-image: url(./resources/img/SPIN-New-York-Midtown.jpg);
 }
+.philadelphia {
+        background-image: url(./resources/img/SPIN-Philadelphia.jpg);
+}
+.san-francisco {
+        background-image: url(./resources/img/SPIN-San-Francisco.jpg);
+}
+.seattle {
+        background-image: url(./resources/img/SPIN-Seattle.jpg);
+}
+.toronto {
+        background-image: url(./resources/img/SPIN-Toronto.jpg);
+}
+.washington-dc {
+        background-image: url(./resources/img/SPIN-Washington-DC.jpg);
+}
+.main-img {
+        overflow: hidden;
+        position: relative;        
+        background-size: cover;
+        background-position: 50% 50%;
+        width: 50%;
+        height: 50rem; 
+}
+.careers-img {        
+        background-image: url(./resources/img/about1.jpg);
+}
+.reserve-img {
+        background-image: url(./resources/img/SPIN-New-York-Venue.jpg);
+}
+.kitchen-img {
+        background-image: url(./resources/img/kitchen-img.jpg);
+}
+.gift-card-img {
+        background-image: url(./resources/img/giftcard-img.jpg);
+}
+.main-text {
+        height: 40rem;
+        padding: 7rem;
+        gap: 3rem;
+        background-color: #f7f7f7;        
+}
+.main-right {
+        width: 50%;
+        position: relative;
+        left: -2rem;
+}
+.main-left {
+        width: 50%;
+        position: relative;
+        left: 2rem;
+        z-index: 1;
+}
+.normal-button {
+        padding: 1rem 2rem;
+        background-color: transparent;
+        border: 1px black solid;
+        text-align: center;
+}
+.main-button {
+        padding: 1rem 2rem;
+        background-color: transparent;
+        border: 1px black solid;
+        text-align: center;
+        height: 3rem;
+}
+.main-button:hover {
+        background-color: #000;
+        color: #f7f7f7;
+        cursor: pointer;
+}
+
 .location-bg {
         background-color: #000;
         opacity: 0.5;
@@ -148,7 +231,24 @@ p {
         max-width: 90rem;
         width: 100%;        
 }
-
+.container2 {
+        width: 100%;
+}
+.connect {
+        width: 10rem;
+        flex-grow: 1;
+}
+.global {
+        width: 11rem;
+        flex-grow: 1;
+}
+.partners {
+        width: 26rem;
+        flex-grow: 1;
+}
+.with100 {
+        width: 100%;
+}
 .flex {
         display: flex;
 }
@@ -172,8 +272,8 @@ p {
         gap: 2rem;
 }
 .icon-size {
-        font-size: 1.25rem;
-        line-height: 1.5;
+        font-size: 1rem;
+        line-height: 1;
         display: flex !important;
         align-items: center;       
 }
@@ -213,4 +313,77 @@ p {
 }
 .large-icon {
         font-size: 2rem;
+}
+.super-large-icon {
+        font-size: 8rem;
+}
+.elementor-field-type-email {
+        height: 3rem;
+        flex: 1 1 20rem;
+}
+.elementor-field-textual {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        font-weight: 300;
+        line-height: 1;
+}
+input[type=email] {
+        width: 100%;
+        border: 1px #000 solid;
+        padding: 1rem;
+        height: 3rem;
+        margin-right: 0.5rem;
+}
+.width-15 {
+        width: 15rem;
+}
+.text-align-right {
+        text-align: right;
+}
+.chanel-icon-container {
+        width: 2rem;
+}
+.flex-grow {
+        flex-grow: 1;
+}
+@media only screen and (max-width: 1023px) {
+        .container, .container2 {
+                flex-direction: column;
+        }
+        #table, #party, #event {
+                width: 100%;
+                max-width: 30rem;
+        }
+        #header {
+                height: auto;
+                padding: 1rem;
+        }
+        #club-name {
+                bottom: 0;
+        }
+        .elementor-field-type-email {
+                width: 100%;
+                flex: 1 1 0;
+        }
+        .main-img, .main-right, .main-left {
+                width: 100%;
+                left: 0;
+        }
+        .main-text {
+                padding: 1rem;
+        }
+        .normal-button, .main-button {
+                width: 80%;
+        }
+        .line-spacing {
+                height: 1.5rem;
+        }
+        .location h3 {
+                text-align: center;
+        }
+}
+@media only screen and (max-width: 767px) {
+        .line-spacing {
+                height: 0.5rem;
+        }
 }
