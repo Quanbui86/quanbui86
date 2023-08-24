@@ -3,7 +3,7 @@ let computerScore = 0;
 let currentRoundNumber = 1;
 
 // Write your code below:
-const generateTarget = () => Math.ceil(Math.random() * 9);
+const generateTarget = () => Math.floor(Math.random() * 10);
 const compareGuesses = (userGuess, computerGuess, secretNumber) => {
   if (userGuess < 0 || userGuess > 9) {
     return alert('number is out of range');
