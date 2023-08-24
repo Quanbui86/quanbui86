@@ -24,9 +24,13 @@ const compareGuesses = (userGuess, computerGuess, secretNumber) => {
   };
   */
   //You can use Math.abs to get absolute number before compare as below.
-  userG = Math.abs(secretNumber - userGuess);
-  compG = Math.abs(secretNumber - computerGuess);
-  return userG <= compG ? true : false ;
+  if (userGuess < 0 || userGuess > 9) {
+    return alert('number is out of range');
+  } else {
+      userG = Math.abs(secretNumber - userGuess);
+      compG = Math.abs(secretNumber - computerGuess);
+      return userG <= compG ? true : false ;
+  };
 };
 const updateScore = (winner) => {
   if (winner === 'human') {
