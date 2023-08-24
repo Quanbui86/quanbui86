@@ -21,7 +21,8 @@ const compareGuesses = (userGuess, computerGuess, secretNumber) => {
     console.log(compG);
     return false;
   };
-  /*
+  //You can use Math.abs to get absolute number before compare as below.
+  /* 
   if (Math.abs(userG) <= Math.abs(compG)) {
         console.log(Math.abs(userG));
         console.log(Math.abs(compG));
