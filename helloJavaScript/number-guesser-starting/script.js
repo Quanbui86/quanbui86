@@ -5,35 +5,29 @@ let currentRoundNumber = 1;
 // Write your code below:
 const generateTarget = () => Math.ceil(Math.random() * 9);
 const compareGuesses = (userGuess, computerGuess, secretNumber) => {
+  /*
   userG = secretNumber - userGuess;
   compG = secretNumber - computerGuess;
   if ((userG >= 0 && compG >= 0 && userG <= compG)
    || (userG < 0 && compG < 0 && userG*-1 <= compG*-1)
    || (userG < 0 && compG >= 0 && userG*-1 <= compG)
    || (userG >= 0 && compG < 0 && userG <= compG*-1)) {
-    console.log(secretNumber);
-    console.log(userG);
-    console.log(compG);
+    console.log(secretNumber); //For testing purpose - delete later
+    console.log(userG); //For testing purpose - delete later
+    console.log(compG); //For testing purpose - delete later
     return true;
   } else {
-    console.log(secretNumber);
-    console.log(userG);
-    console.log(compG);
+    console.log(secretNumber); //For testing purpose - delete later
+    console.log(userG); //For testing purpose - delete later
+    console.log(compG); //For testing purpose - delete later
     return false;
   };
+  */
   //You can use Math.abs to get absolute number before compare as below.
-  /* 
-  if (Math.abs(userG) <= Math.abs(compG)) {
-        console.log(Math.abs(userG));
-        console.log(Math.abs(compG));
-        console.log(secretNumber);
-        return true;
-  }     console.log(Math.abs(userG));
-        console.log(Math.abs(compG));
-        console.log(secretNumber);
-        return false;*/
+  userG = Math.abs(secretNumber - userGuess);
+  compG = Math.abs(secretNumber - computerGuess);
+  return userG <= compG ? true : false ;
 };
-
 const updateScore = (winner) => {
   if (winner === 'human') {
     humanScore +=1;
@@ -42,4 +36,4 @@ const updateScore = (winner) => {
     };
 };
 const advanceRound = () => currentRoundNumber +=1;
-console.log(compareGuesses(4,5,generateTarget()));
+console.log(compareGuesses(4,5,generateTarget())); //For testing purpose - delete later
