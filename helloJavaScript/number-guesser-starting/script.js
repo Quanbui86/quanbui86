@@ -18,6 +18,6 @@ const updateScore = (winner) => {
     humanScore +=1;
   } else {
     computerScore +=1;
-    };
+  };
 };
 const advanceRound = () => currentRoundNumber +=1;
