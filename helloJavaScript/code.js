@@ -87,3 +87,9 @@ const arr3= [{item: 'Cheese Balls'}] ;
 console.log(groceries(arr3))
 console.log(groceries(arr2))
 console.log(groceries(arr1))
+const keys = ['c-key', 'd-key', 'e-key', 'f-key', 'g-key', 'a-key', 'b-key', 'high-c-key', 'c-sharp-key', 'd-sharp-key', 'f-sharp-key', 'g-sharp-key', 'a-sharp-key'];
+const notes = [];
+keys.forEach(function(key){
+  notes.push((key));  
+})
+console.log(notes)
