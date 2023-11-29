@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/helloJavaScript/React/oantuti/index.html/static/css/main.7d723066.css",
-    "main.js": "/helloJavaScript/React/oantuti/index.html/static/js/main.1269a508.js",
-    "index.html": "/helloJavaScript/React/oantuti/index.html/index.html",
-    "main.7d723066.css.map": "/helloJavaScript/React/oantuti/index.html/static/css/main.7d723066.css.map",
-    "main.1269a508.js.map": "/helloJavaScript/React/oantuti/index.html/static/js/main.1269a508.js.map"
+    "main.css": "/helloJavaScript/React/oantuti/static/css/main.7d723066.css",
+    "main.js": "/helloJavaScript/React/oantuti/static/js/main.1269a508.js",
+    "index.html": "/helloJavaScript/React/oantuti/index.html",
+    "main.7d723066.css.map": "/helloJavaScript/React/oantuti/static/css/main.7d723066.css.map",
+    "main.1269a508.js.map": "/helloJavaScript/React/oantuti/static/js/main.1269a508.js.map"
   },
   "entrypoints": [
     "static/css/main.7d723066.css",
