@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import style from './Game.module.css';
+import GameChoice from "./GameChoice";
 const CHOICES = [
   { name: "rock", emoji: "✊" },
   { name: "paper", emoji: "✋" },
@@ -30,7 +31,8 @@ function Game() {
   const [result, setResult] = useState(null);
 
   function handlePlayerChoice(choice) {
-    const codeyChoice = CHOICES[Math.floor(Math.random() * CHOICES.length)];
+    let index = CHOICES.findIndex((e)=>e.name === choice.name)
+    const codeyChoice = CHOICES[(index-1)];
     setPlayerChoice(choice);
     setCodeyChoice(codeyChoice);
     if (choice.name === codeyChoice.name) {
@@ -54,19 +56,7 @@ function Game() {
 
   return (
     <div className={style.container}>
-      <h1 style={{fontSize: 48, marginTop: 10}}>Rock Paper Scissors</h1>
-      <div className={style.choices}>
-        {CHOICES.map((choice) => (
-          <button
-            key={choice.name}
-            onClick={() => handlePlayerChoice(choice)}
-            aria-label={choice.name}
-            className={style.button}
-          >
-            {choice.emoji}
-          </button>
-        ))}
-      </div>
+      <GameChoice onPlayerChoice={handlePlayerChoice}/>
       {playerChoice && codeyChoice && (
         <div className={style.results}>
           <div style={choiceStyles}>
